@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.tsUtil-Slide-Panel{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.tsUtil-Slide-Panel section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.tsUtil-Slide-Panel section:nth-child(1){
+    opacity: 1;
+}
+.indexSilde-panel{
+    width: 80%;
+    height: 100%;
+}

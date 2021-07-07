@@ -1,0 +1,1752 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "微软雅黑";
+}
+a{
+	cursor:pointer;
+}
+#background{
+	background: url('../images/biologist_bg.png') no-repeat;
+	height: 4680px;
+	min-width: 1400px;
+	max-width: 2580px; 
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#politician{
+	background: url('../images/poverty_banner1.png') no-repeat;
+	height: 893px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: relative
+}
+/* #nav{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 20px;
+}
+#nav li{
+    width: 138px;
+    height: 47px;
+    display: inline-block;
+}
+#nav a{
+	display: block;
+	text-decoration: none;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    transition: all 0.3s;
+    color: #000;
+}
+#nav a:hover{
+	background-image: url('../images/menu_hover.png');
+} */
+#poverty{
+	background-image: url('../images/menu_hover.png');
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#content1{
+	width: 1400px;
+	height:800px;
+	position:relative;
+	top: 90px;
+	left: 50%;
+	margin-left: -700px;
+}
+#content1_1{
+	width: 1180px;
+	height: 600px;
+	position:absolute;
+	top: 100px;
+	left: 70px;
+	background-color:#4877c9;
+	-webkit-transform: rotate(0.8deg);
+	   -moz-transform: rotate(0.8deg);
+	    -ms-transform: rotate(0.8deg);
+	     -o-transform: rotate(0.8deg);
+	        transform: rotate(0.8deg);      
+    -o-transform:rotate(0.8deg);    
+    -webkit-transform:rotate(0.8deg);
+    -moz-transform:rotate(0.8deg); 
+}
+#tu3{
+	position: absolute;
+	left: 650px;
+	top: 50px;
+}
+#xiexian4{
+	position: relative;
+	position: relative;
+	border-bottom: 2px solid #272822;
+	width: 50px;
+	height: 50px;
+	-o-transform:rotate(-35deg); 
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+    top: 50px;
+    left: 15px;
+}
+#xiexian5{
+	position: absolute;
+	border-bottom: 2px solid #272822;
+	width: 50px;
+	height: 50px;
+	-o-transform:rotate(-35deg); 
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+    top: 450px;
+    left: 15px;
+}
+#span3{
+	position: absolute;
+	color: #5e5e5e;
+	font-weight: 600;
+	font-size: 19px;
+	top: 200px;
+	left: 50px;
+}
+#content3_nr{
+	position: absolute;
+	text-indent: 2em;
+	width: 530px;
+	top: 100px;
+	left: 125px;
+	letter-spacing: 0.5px;
+	line-height: 24px;
+	font-weight: bold;
+}
+#name3{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top: 265px;
+	left: 1130px;
+	background: -webkit-linear-gradient(left,#d4c486,#d2895c);
+	background: -moz-linear-gradient(left,#d4c486,#d2895c);
+	background: -o-linear-gradient(left,#d4c486,#d2895c);
+	background: linear-gradient(to right,#d4c486,#d2895c);
+	box-shadow:0px 0px 10px 0.5px #ccc;
+	color: #fff;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#content3_bottom{
+	width: 1180px;
+	height: 6px;
+	position: relative;
+	background: -webkit-linear-gradient(top,#272822,#5e5e5e);
+	background: -moz-linear-gradient(top,#272822,#5e5e5e);
+	background: -o-linear-gradient(top,#272822,#5e5e5e);
+	background: linear-gradient(to bottom,#272822,#5e5e5e);
+	top: 600px;
+}
+#content1_2{
+	width: 1170px;
+	height: 600px;
+	position: absolute;
+	top: 130px;
+	left: 50px;
+	background-color:#b9d6f6;     
+    -o-transform:rotate(0.6deg);    
+    -webkit-transform:rotate(0.6deg);
+    -moz-transform:rotate(0.6deg); 
+    -ms-transform: rotate(0.6deg); 
+    transform: rotate(0.6deg); 
+}
+
+#content2_bottom{
+	width: 1170px;
+	height: 6px;
+	position: relative;
+	background: -webkit-linear-gradient(top,#272822,#5e5e5e);
+	background: -moz-linear-gradient(top,#272822,#5e5e5e);
+	background: -o-linear-gradient(top,#272822,#5e5e5e);
+	background: linear-gradient(to bottom,#272822,#5e5e5e);
+	top: 600px;
+}
+#tu2{
+	position: absolute;
+	left: 650px;
+	top: 20px;
+}
+#xiexian2{
+	position: absolute;
+	border-bottom: 2px solid #272822;
+	width: 50px;
+	height: 50px;
+	-webkit-transform: rotate(-35deg);
+	    -ms-transform: rotate(-35deg);
+	        transform: rotate(-35deg);
+	-o-transform:rotate(-35deg); 
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    top: 50px;
+    left: 15px;
+}
+#xiexian3{
+	position: absolute;
+	border-bottom: 2px solid #272822;
+	width: 50px;
+	height: 50px;
+	-o-transform:rotate(-35deg); 
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+    top: 450px;
+    left: 15px;
+}
+#span2{
+	position: absolute;
+	color: #5e5e5e;
+	font-weight: 600;
+	font-size: 19px;
+	top: 150px;
+	left: 50px;
+}
+#content2_nr{
+	position: absolute;
+	text-indent: 2em;
+	width: 530px;
+	top: 100px;
+	left: 125px;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	font-weight: bold;
+}
+#name2{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top: 185px;
+	left: 1100px;
+	background: -webkit-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -moz-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -o-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: linear-gradient(to right,#e5e5e5,#8cbe65);
+	box-shadow:0px 0px 10px 0.5px #ccc;
+	color: #fff;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#content1_3{
+	width: 1150px;
+	height: 600px;
+	position: relative;
+	top:160px;
+	background-color: #fff;
+	left: 40px;
+/* 	transform: rotate(1.5deg);      
+    -o-transform:rotate(1.5deg);    
+    -webkit-transform:rotate(1.5deg);
+    -moz-transform:rotate(1.5deg); 
+*/
+}
+#content1_bottom{
+	position: absolute;
+	top: 600px;
+	width: 1150px;
+	height: 5.5px;
+	-ms-background: linear-gradient(to bottom,#bbb,#eee);
+	background: -webkit-linear-gradient(top,#bbb,#eee);
+	background: -moz-linear-gradient(top,#bbb,#eee);
+	background: -o-linear-gradient(top,#bbb,#eee);
+	background: linear-gradient(to bottom,#bbb,#eee);
+}
+#tu1{
+	position: absolute;
+	left: 665px;
+	top: 40px;
+}
+#xiexian{
+	position: absolute;
+	border-bottom: 2px solid #272822;
+	width: 50px;
+	height: 50px;
+	-webkit-transform: rotate(-35deg);
+	    -ms-transform: rotate(-35deg);
+	        transform: rotate(-35deg);
+	-o-transform:rotate(-35deg); 
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    top: 50px;
+    left: 20px;
+}
+#xiexian1{
+	position:absolute;
+	border-bottom: 2px solid #272822;
+	width: 50px;
+	height: 50px;
+	-o-transform:rotate(-35deg); 
+	-webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform:rotate(-35deg);
+    -webkit-transform: rotate(-35deg);
+            transform: rotate(-35deg);
+    top: 450px;
+    left: 20px;
+}
+#span1{
+	position: absolute;
+	top: 160px;
+	left: 53px;
+	color: #5e5e5e;
+	font-weight: 600;
+	font-size: 19px;
+}
+#content1_nr{
+	position: absolute;
+	text-indent: 2em;
+	width: 530px;
+	top: 90px;
+	left: 125px;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	font-weight: bold;
+}
+#name1{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	top: 100px;
+	left: 1080px;
+	background: -webkit-linear-gradient(left,#d5c9d5,#b472b1);
+	background: -moz-linear-gradient(left,#d5c9d5,#b472b1);
+	background: -o-linear-gradient(left,#d5c9d5,#b472b1);
+	background: linear-gradient(to right,#d5c9d5,#b472b1);
+	box-shadow:0px 0px 10px 0.5px #ccc;
+	color: #fff;
+	font-weight: bold;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+#tu4{
+	position: absolute;
+	top: 50px;
+	left: 1000px;
+}
+#content2{
+	width: 1400px;
+	height: 300px;
+	position: relative;
+	left: 50%;
+	margin-left: -700px;
+	top: 150px;
+}
+#tu5{
+	position: relative;
+}
+#tu6{
+	position: relative;
+	top: 200px;
+	left: 1250px;
+}
+#content2 p{
+	position: relative;
+	text-align: center;
+	left: 20px;
+	line-height: 24px;
+	color: #5e5e5e;
+	letter-spacing: 1px;
+}
+#content3{
+	position: relative;
+	top: -210px;
+	height: 707px;
+	background: url('../images/techology_cutline.png') no-repeat;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	min-width: 1400px;
+	max-width: 2580px;
+}
+#content4{
+	width: 1400px;
+	height: 1100px;
+	position: relative;
+	left: 50%;
+	margin-left: -700px;
+	margin-top: -150px;
+}
+#content_content1{
+}
+#content_content2{
+	display: none;
+}
+#content_content3{
+	display: none;
+}
+#tu7{
+	position: absolute;
+	right: 0px;
+}
+#name_name{
+	font-size: 25px;
+	font-weight: 500;
+	color: #537fcd;
+	letter-spacing: 1px;
+	text-shadow: 0 0 0.03em;
+	font-weight: bold;
+}
+#content4 p{
+	position: relative;
+	width: 560px;
+	letter-spacing: 1px;
+	line-height: 32px;
+    text-indent: 2em;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+#nr1{
+	width: 560px;
+	height: 600px;
+}
+#sanjiao{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left:30px solid transparent;   
+    border-right:30px solid transparent;   
+    border-bottom:30px solid #c1c5dd;  
+    left: 950px;
+    top: -30px;
+}
+#rwbackground{
+	width: 300px;
+	height: 760px;
+	position: absolute;
+	background: #fff;
+	left: 680px;
+	top: -30px;
+}
+
+#right1{
+	position: absolute;
+	left: 18px;
+	top: 60px;
+}
+#right2{
+	position: absolute;
+	left: 18px;
+	top: 295px;
+}
+#right3{
+	position: absolute;
+	left: 18px;
+	top: 530px;
+}
+#tu8{
+	position: absolute;
+	left: 610px;
+	top: 80px;
+}
+#name_shiji{
+	position: absolute;
+	color: #fff;
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 30px;
+	left: 1190px;
+	top: 210px;
+	font-family: "微软雅黑";
+	-webkit-writing-mode:tb-rl;
+        -ms-writing-mode:tb-rl;
+            writing-mode:tb-rl;
+}
+#page{
+	position: absolute;
+	font-weight: bold;
+	left:430px;
+	top: 900px;
+}
+#pagestyle{
+	color: #305dab;
+	text-shadow: 0 0 0.03em;
+	font-size: 26px;
+}
+#content5 #tu9{
+	height: 404px;
+	position: absolute;
+	right: 0px;
+	top: 3590px;
+}
+#foot{
+	background: url('../images/medical_footer_bg.png') no-repeat;
+	position: relative;
+	height: 615px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	letter-spacing: 1px;
+	top: 350px;
+}
+#foot #foot1{
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top: 570px;
+}
+#tu11{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 200px;
+	right: 10px;
+}
+#politician_nr{
+	position: absolute;
+	top: 365px;
+	width: 700px;
+	height: 50px;
+	left: 50%;
+	margin-left: -850px;
+	text-align: right;
+	/* font-weight: bold; */
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+.poverty_figure_panel{
+	position: relative;
+	
+}
+.poverty_figure_item{
+	position: absolute;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	   -moz-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 1100px;
+	height: 600px;
+	top: 100px;
+	left: 90px;
+	/* box-shadow: 0px 0px 10px 0px #ccc; */
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.poverty_figure_item .title_panel{
+	width: 100px;
+	height: 100%;
+}
+.poverty_figure_item .title_panel .title{
+	display: block;
+	width: 40px;
+	height: 100%;
+	margin: 0 auto;
+	-webkit-writing-mode:tb-rl;
+	-ms-writing-mode:tb-rl;
+		writing-mode:tb-rl;
+	text-align: center;
+	color: #5e5e5e;
+    font-weight: 600;
+	font-size: 19px;
+	letter-spacing: 3px;
+	margin-left: 25px;
+}
+.title_line_top,.title_line_bottom{
+	border-bottom: 2px solid #272822;
+    width: 50px;
+	height: 50px;
+	-webkit-transform: rotate(-35deg);
+	   -moz-transform: rotate(-35deg);
+	    -ms-transform: rotate(-35deg);
+	     -o-transform: rotate(-35deg);
+	        transform: rotate(-35deg);
+	position: absolute;
+	left: 20px;
+}
+.title_line_top{
+	top: 50px;
+}
+.title_line_bottom{
+	top: 450px;
+}
+.poverty_figure_item .content {
+	width: 480px;
+	height: 410px;
+	letter-spacing: 0.5px;
+    line-height: 26px;
+	text-indent: 2em;
+	margin-top: 105px;
+}
+.poverty_figure_item .header {
+	width: 500px;
+	margin-top: 40px;
+}
+
+.poverty_figure_menu{
+	width: 300px;
+	position: absolute;
+	left: 1030px;
+	top: 200px;
+	list-style: none;
+	margin: 50px;
+}
+.poverty_figure_menu li{
+	width: 200px;
+	height: 40px;
+	box-shadow: 0px 0px 10px 0.5px #ccc;
+	color: #fff;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+	letter-spacing: 2px;
+	margin-top: 30px;
+	position: relative;
+	cursor: pointer;
+}
+#tu4{
+	z-index: 1000;
+}
+.poverty_figure_menu li:nth-child(1){
+    background: -webkit-linear-gradient(left,#d5c9d5,#b472b1);
+    background: -moz-linear-gradient(left,#d5c9d5,#b472b1);
+    background: -o-linear-gradient(left,#d5c9d5,#b472b1);
+    background: linear-gradient(to right,#d5c9d5,#b472b1);
+    z-index: 999;
+}
+.poverty_figure_menu li:nth-child(2){
+	background: -webkit-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -moz-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -o-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: linear-gradient(to right,#e5e5e5,#8cbe65);
+	left: 30px;
+	z-index: 667;
+}
+.poverty_figure_menu li:nth-child(3){
+	background: -webkit-linear-gradient(left,#d4c486,#d2895c);
+	background: -moz-linear-gradient(left,#d4c486,#d2895c);
+	background: -o-linear-gradient(left,#d4c486,#d2895c);
+	background: linear-gradient(to right,#d4c486,#d2895c);
+	left: 60px;
+	z-index: 334;
+}
+
+.poverty_figure_item.item1{
+	background-color: #fff;
+}
+.poverty_figure_item.item2{
+	background-color: #b9d6f6;
+}
+.poverty_figure_item.item3{
+	background-color: #4877c9;
+}
+/* figure : 1 */
+.poverty_figure_panel.figure1 .item2{
+	top: 130px;
+	left: 70px;
+	z-index: 666;
+}
+.poverty_figure_panel.figure1 .item1{
+	top: 160px;
+	left: 50px;
+	z-index: 999;
+}
+/* figure : 2 */
+.poverty_figure_panel.figure2 .item2{
+	top: 160px;
+	left: 30px;
+	z-index: 999;
+}
+.poverty_figure_panel.figure2 .item1{
+	top: 130px;
+	left: 50px;
+	z-index: 666;
+}
+
+/* figure : 3 */
+.poverty_figure_panel.figure3 .item3{
+	top: 160px;
+	left: 30px;
+	z-index: 999;
+}
+.poverty_figure_panel.figure3 .item1{
+	top: 130px;
+	left: 50px;
+	z-index: 666;
+}
+@media screen and (min-width: 780px) and (max-width: 1200px){
+	#background{ 
+	background: url('../images/biologist_bg1.png') no-repeat;
+	height: 2900px;
+	min-width: 780px;
+	max-width: 1200px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+  #politician{
+	height: 550px;
+	min-width: 780px;
+	max-width: 1200px;
+}
+#content1{
+	width: 780px;
+	height:600px;
+	top: 120px;
+	left: 50%;
+	margin-left: -390px;
+}
+#content1_1{
+	width: 670px;
+	height: 400px;
+	top: 15px;
+	left: 20px;
+	-webkit-transform: rotate(2deg);
+	   -moz-transform: rotate(2deg);
+	    -ms-transform: rotate(2deg);
+	     -o-transform: rotate(2deg);
+	        transform: rotate(2deg);      
+    -o-transform:rotate(2deg);    
+    -webkit-transform:rotate(2deg);
+    -moz-transform:rotate(2deg); 
+}
+#tu3{
+	width: 300px;
+	left: 400px;
+	top: 50px;
+}
+#xiexian4{
+	width: 30px;
+	height: 30px;
+    top: 10px;
+    left: 5px;
+}
+#xiexian5{
+	width: 30px;
+	height: 30px;
+    top: 300px;
+    left: 5px;
+}
+#span3{
+	font-size: 15px;
+	top: 100px;
+	left: 20px;
+}
+#content3_nr{
+	width: 370px;
+	top: 30px;
+	left: 50px;
+	line-height: 20px;
+	font-weight: 500;
+	font-size: 13px;
+}
+#name3{
+	width: 110px;
+	height: 30px;
+	top: 200px;
+	left: 640px;
+	line-height: 30px;
+}
+#content3_bottom{
+	width:670px;
+	height: 3px;
+	top: 400px;
+}
+#content1_2{
+	width: 665px;
+	height: 400px;
+	top: 30px;
+	left: 10px;
+    -o-transform:rotate(1deg);    
+    -webkit-transform:rotate(1deg);
+    -moz-transform:rotate(1deg); 
+    -ms-transform: rotate(1deg); 
+    transform: rotate(1deg); 
+}
+
+#content2_bottom{
+	width: 665px;
+	height: 3px;
+	top: 400px;
+}
+#tu2{
+	width: 300px;
+	left: 400px;
+	top: 50px;
+}
+#xiexian2{
+	width: 30px;
+	height: 30px;
+    top: 10px;
+    left: 5px;
+}
+#xiexian3{
+	width: 30px;
+	height: 30px;
+    top: 300px;
+    left: 5px;
+}
+#span2{
+	font-size: 15px;
+	top: 50px;
+	left: 20px;
+}
+#content2_nr{
+	width: 370px;
+	top: 30px;
+	left: 50px;
+	line-height: 19px;
+	font-weight: 500;
+	font-size: 13px;
+}
+#name2{
+	width: 110px;
+	height: 30px;
+	top: 140px;
+	left: 640px;
+	line-height: 30px;
+}
+#content1_3{
+	width: 660px;
+	height: 400px;
+	top:45px;
+	left: 0px;
+/* 	transform: rotate(1.5deg);      
+    -o-transform:rotate(1.5deg);    
+    -webkit-transform:rotate(1.5deg);
+    -moz-transform:rotate(1.5deg); 
+*/
+}
+#content1_bottom{
+	top: 400px;
+	width: 660px;
+	height: 3px;
+}
+#tu1{
+	width: 300px;
+	left: 400px;
+	top: 50px;
+}
+#xiexian{
+	width: 30px;
+	height: 30px;
+    top: 15px;
+    left: 5px;
+}
+#xiexian1{
+	width: 30px;
+	height: 30px;
+    top: 300px;
+    left: 5px;
+}
+#span1{
+	top: 60px;
+	left: 20px;
+	font-size: 15px;
+}
+#content1_nr{
+	width: 365px;
+	top: 20px;
+	left: 60px;
+	line-height: 18px;
+	font-weight: 500;
+	font-size: 13px;
+}
+#name1{
+	width: 110px;
+	height: 30px;
+	top: 80px;
+	left: 630px;
+	line-height: 30px;
+}
+#tu4{
+	width: 40px;
+	position: absolute;
+	top: -20px;
+	left: 500px;
+}
+#content2{
+	width: 780px;
+	height: 200px;
+	position: relative;
+	left: 50%;
+	margin-left: -390px;
+	top: 90px;
+	font-size: 13px;
+}
+#tu5{
+	width: 50px;
+	left:-20px ;
+}
+#tu6{
+	top: 120px;
+	left: 700px;
+	width: 50px;
+}
+#content2 p{
+	width: 730px;
+	left: 30px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+}
+#content3{
+	height: 600px;
+	background: url('../images/techology_cutline.png') no-repeat;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	min-width: 780px;
+	max-width: 1200px;
+}
+#content4{
+	width: 780px;
+	height: 600px;
+	left: 50%;
+	margin-left: -390px;
+	margin-top: -150px;
+}
+#tu7{
+	width: 400px;
+	position: absolute;
+	right: 0px;
+}
+#name_name{
+	font-size: 20px;
+}
+#content4 p{
+	width: 350px;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+	font-size: 11px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sanjiao{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left:20px solid transparent;   
+    border-right:20px solid transparent;   
+    border-bottom:20px solid #c1c5dd;  
+    left: 540px;
+    top: -20px;
+}
+#rwbackground{
+	width: 170px;
+	height: 430px;
+	left: 390px;
+	top: -20px;
+}
+#right1{
+	width: 150px;
+	left: 10px;
+	top: 40px;
+}
+#right2{
+	width: 150px;
+	left: 10px;
+	top: 170px;
+}
+#right3{
+	width: 150px;
+	left: 10px;
+	top: 300px;
+}
+#tu8{
+	width: 60px;
+	left: 360px;
+	top: 50px;
+}
+#name_shiji{
+	position: absolute;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	left: 650px;
+	top: 100px;
+}
+#page{
+	font-weight: 500;
+	left:300px;
+	top: 460px;
+}
+#pagestyle{
+	font-size: 18px;
+}
+#content5 #tu9{
+	height: 200px;
+	right: 0px;
+	top:2400px;
+
+}
+#foot{
+	background: url('../images/medical_footer_bg.png') no-repeat;
+	position: relative;
+	height: 400px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	letter-spacing: 1px;
+	top:100px;
+}
+#foot #foot1{
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top: 360px;
+}
+#tu11{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 200px;
+	right: 10px;
+}
+#nr1{
+	height: 430px;
+}
+#politician_nr{
+	top: 220px;
+	width: 340px;
+	left: 50%;
+	font-size: 12px;
+	margin-left: -430px;
+	letter-spacing: 0.5px;
+}
+.poverty_figure_item{
+	position: absolute;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	   -moz-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 680px;
+	height: 400px;
+	top: 100px;
+	left: 20px;
+	/* box-shadow: 0px 0px 10px 0px #ccc; */
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.poverty_figure_item .title_panel{
+	width: 100px;
+	
+}
+.header img{
+	width: 300px;
+	position: absolute;
+	left: 400px;
+}
+.poverty_figure_item .title_panel .title{
+	display: block;
+	width: 40px;
+	height: 100%;
+	margin: 0 auto;
+	-webkit-writing-mode:tb-rl;
+	-ms-writing-mode:tb-rl;
+		writing-mode:tb-rl;
+	text-align: center;
+	color: #5e5e5e;
+    font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 3px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.title_line_top,.title_line_bottom{
+	border-bottom: 2px solid #272822;
+    width: 30px;
+	height: 30px;
+	-webkit-transform: rotate(-35deg);
+	   -moz-transform: rotate(-35deg);
+	    -ms-transform: rotate(-35deg);
+	     -o-transform: rotate(-35deg);
+	        transform: rotate(-35deg);
+	position: absolute;
+	left: 0px;
+	margin-top: -40px;
+}
+.title_line_top{
+	top: 50px;
+}
+.title_line_bottom{
+	top: 350px;
+}
+.poverty_figure_item .content {
+	width: 380px;
+	height: 350px;
+	letter-spacing: 0.5px;
+    line-height: 20px;
+	font-weight: 500;
+	text-indent: 2em;
+	margin-top: 30px;
+	font-size: 13px;
+	position: absolute;
+	left: 50px;
+}
+.poverty_figure_item .header {
+	width: 500px;
+	margin-top: 40px;
+}
+
+.poverty_figure_menu{
+	width: 100px;
+	position: absolute;
+	left: 570px;
+	top: 180px;
+	list-style: none;
+	margin: 50px;
+}
+.poverty_figure_menu li{
+	width: 110px;
+	height: 25px;
+	box-shadow: 0px 0px 10px 0.5px #ccc;
+	color: #fff;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	position: relative;
+	cursor: pointer;
+	font-size: 14px;
+}
+#tu4{
+	top: 70px;
+	width: 40px;
+	z-index: 1000;
+}
+.poverty_figure_menu li:nth-child(1){
+    background: -webkit-linear-gradient(left,#d5c9d5,#b472b1);
+    background: -moz-linear-gradient(left,#d5c9d5,#b472b1);
+    background: -o-linear-gradient(left,#d5c9d5,#b472b1);
+    background: linear-gradient(to right,#d5c9d5,#b472b1);
+    z-index: 999;
+}
+.poverty_figure_menu li:nth-child(2){
+	background: -webkit-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -moz-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -o-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: linear-gradient(to right,#e5e5e5,#8cbe65);
+	left: 30px;
+	z-index: 667;
+}
+.poverty_figure_menu li:nth-child(3){
+	background: -webkit-linear-gradient(left,#d4c486,#d2895c);
+	background: -moz-linear-gradient(left,#d4c486,#d2895c);
+	background: -o-linear-gradient(left,#d4c486,#d2895c);
+	background: linear-gradient(to right,#d4c486,#d2895c);
+	left: 60px;
+	z-index: 334;
+}
+
+.poverty_figure_item.item1{
+	background-color: #fff;
+}
+.poverty_figure_item.item2{
+	background-color: #b9d6f6;
+}
+.poverty_figure_item.item3{
+	background-color: #4877c9;
+}
+/* figure : 1 */
+.poverty_figure_panel.figure1 .item2{
+	top: 115px;
+	left: 10px;
+	z-index: 666;
+}
+.poverty_figure_panel.figure1 .item1{
+	top: 130px;
+	left: 0px;
+	z-index: 999;
+}
+/* figure : 2 */
+.poverty_figure_panel.figure2 .item2{
+	top: 160px;
+	left: 10px;
+	z-index: 999;
+}
+.poverty_figure_panel.figure2 .item1{
+	top: 130px;
+	left: 0px;
+	z-index: 666;
+}
+
+/* figure : 3 */
+.poverty_figure_panel.figure3 .item3{
+	top: 160px;
+	left: 30px;
+	z-index: 999;
+}
+.poverty_figure_panel.figure3 .item1{
+	top: 130px;
+	left: 50px;
+	z-index: 666;
+}
+}
+@media screen and (min-width: 0px) and (max-width: 780px){
+		#background{ 
+	background: url('../images/poverty_banner_m.png') no-repeat;
+	height: 890px;
+	min-width: 390px;
+	max-width: 780px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+  #politician{
+display: none;
+}
+#content1{
+	width: 390px;
+	height:600px;
+	top: 760px;
+	left: 50%;
+	margin-left: -195px;
+}
+#content1_1{
+	width: 670px;
+	height: 400px;
+	top: 15px;
+	left: 20px;
+	-webkit-transform: rotate(2deg);
+	   -moz-transform: rotate(2deg);
+	    -ms-transform: rotate(2deg);
+	     -o-transform: rotate(2deg);
+	        transform: rotate(2deg);      
+    -o-transform:rotate(2deg);    
+    -webkit-transform:rotate(2deg);
+    -moz-transform:rotate(2deg); 
+}
+#tu3{
+	width: 300px;
+	left: 400px;
+	top: 50px;
+}
+#xiexian4{
+	width: 30px;
+	height: 30px;
+    top: 10px;
+    left: 5px;
+}
+#xiexian5{
+	width: 30px;
+	height: 30px;
+    top: 300px;
+    left: 5px;
+}
+#span3{
+	font-size: 15px;
+	top: 100px;
+	left: 20px;
+}
+#content3_nr{
+	width: 370px;
+	top: 30px;
+	left: 50px;
+	line-height: 20px;
+	font-weight: 500;
+	font-size: 13px;
+}
+#name3{
+	width: 110px;
+	height: 30px;
+	top: 200px;
+	left: 640px;
+	line-height: 30px;
+}
+#content3_bottom{
+	width:670px;
+	height: 3px;
+	top: 400px;
+}
+#content1_2{
+	width: 665px;
+	height: 400px;
+	top: 30px;
+	left: 10px;
+    -o-transform:rotate(1deg);    
+    -webkit-transform:rotate(1deg);
+    -moz-transform:rotate(1deg); 
+    -ms-transform: rotate(1deg); 
+    transform: rotate(1deg); 
+}
+
+#content2_bottom{
+	width: 665px;
+	height: 3px;
+	top: 400px;
+}
+#tu2{
+	width: 300px;
+	left: 400px;
+	top: 50px;
+}
+#xiexian2{
+	width: 30px;
+	height: 30px;
+    top: 10px;
+    left: 5px;
+}
+#xiexian3{
+	width: 30px;
+	height: 30px;
+    top: 300px;
+    left: 5px;
+}
+#span2{
+	font-size: 15px;
+	top: 50px;
+	left: 20px;
+}
+#content2_nr{
+	width: 370px;
+	top: 30px;
+	left: 50px;
+	line-height: 19px;
+	font-weight: 500;
+	font-size: 13px;
+}
+#name2{
+	width: 110px;
+	height: 30px;
+	top: 140px;
+	left: 640px;
+	line-height: 30px;
+}
+#content1_3{
+	width: 660px;
+	height: 400px;
+	top:45px;
+	left: 0px;
+/* 	transform: rotate(1.5deg);      
+    -o-transform:rotate(1.5deg);    
+    -webkit-transform:rotate(1.5deg);
+    -moz-transform:rotate(1.5deg); 
+*/
+}
+#content1_bottom{
+	top: 400px;
+	width: 660px;
+	height: 3px;
+}
+#nr1{
+	width: 380px;
+}
+#tu1{
+	width: 300px;
+	left: 400px;
+	top: 50px;
+}
+#xiexian{
+	width: 30px;
+	height: 30px;
+    top: 15px;
+    left: 5px;
+}
+#xiexian1{
+	width: 30px;
+	height: 30px;
+    top: 300px;
+    left: 5px;
+}
+#span1{
+	top: 60px;
+	left: 20px;
+	font-size: 15px;
+}
+#content1_nr{
+	width: 365px;
+	top: 20px;
+	left: 60px;
+	line-height: 18px;
+	font-weight: 500;
+	font-size: 13px;
+}
+#name1{
+	width: 110px;
+	height: 30px;
+	top: 80px;
+	left: 630px;
+	line-height: 30px;
+}
+#tu4{
+	width: 40px;
+	position: absolute;
+	top: -20px;
+	left: 500px;
+}
+#content2{
+	width: 380px;
+	height: 200px;
+	position: relative;
+	left: 50%;
+	margin-left: -195px;
+	top:890px;
+	font-size: 12px;
+}
+#tu5{
+	width: 40px;
+	top:250px;
+	left: 180px;
+}
+#tu6{
+	width: 40px;
+	top: 460px;
+	left: 150px;
+}
+#content2 p{
+	width: 390px;
+	height: 150px;
+	left: 0px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	top: 250px;
+	overflow: hidden;
+}
+#content3{
+	height: 400px;
+	background: url('../images/techology_cutline.png') no-repeat;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	min-width: 390px;
+	max-width: 780px;
+	top: 1050px;
+}
+#content4{
+	width: 390px;
+	height: 600px;
+	left: 50%;
+	margin-left: -195px;
+	margin-top: 1050px;
+	
+}
+.poverty_figure_item{
+	overflow: hidden;
+}
+#tu7{
+	display: none;
+}
+#name_name{
+	font-size: 20px;
+}
+#content4 p{
+	width: 250px;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+	font-size: 11px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sanjiao{
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left:20px solid transparent;   
+    border-right:20px solid transparent;   
+    border-bottom:20px solid #c1c5dd;  
+    left: 360px;
+    top: 0px;
+}
+#rwbackground{
+	width: 130px;
+	height: 410px;
+	left: 250px;
+	top: 0px;
+}
+#right1{
+	width: 130px;
+	left: 0px;
+	top: 30px;
+}
+#right2{
+	width: 130px;
+	left: 0px;
+	top: 160px;
+}
+#right3{
+	width: 130px;
+	left: 0px;
+	top: 290px;
+}
+#tu8{
+	width: 50px;
+	left: 230px;
+	top: 50px;
+}
+#name_shiji{
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 15px;
+	left: 310px;
+	top: 410px;
+	color: #000;
+}
+#page{
+	font-weight: 500;
+	left:250px;
+	top: 600px;
+}
+#pagestyle{
+	font-size: 18px;
+}
+#content5 #tu9{
+	height: 200px;
+	right: 0px;
+	top:2910px;
+
+}
+#foot{
+	background: url('../images/medical_footer_bg.png') no-repeat;
+	position: relative;
+	height: 400px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	text-align: center;
+	margin-left:auto;
+	margin-right: auto;
+	letter-spacing: 1px;
+	top:150px;
+}
+#foot #foot1{
+	width: 300px;
+	position: absolute;
+	left: 50%;
+	margin-left: -150px;
+	top: 360px;
+}
+#tu11{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 200px;
+	right: 10px;
+}
+#politician_nr{
+	top: 220px;
+	width: 340px;
+	left: 50%;
+	font-size: 12px;
+	margin-left: -430px;
+	letter-spacing: 0.5px;
+}
+.poverty_figure_item{
+	position: absolute;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-between;
+	   -moz-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 310px;
+	height: 800px;
+	top: 100px;
+	left: 20px;
+	/* box-shadow: 0px 0px 10px 0px #ccc; */
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.poverty_figure_item .title_panel{
+	width: 100px;
+	
+}
+.header img{
+	width: 300px;
+	position: absolute;
+	top: 550px;
+	left: 50px;
+}
+.poverty_figure_item .title_panel .title{
+	display: block;
+	width: 40px;
+	height: 100%;
+	margin: 0 auto;
+	-webkit-writing-mode:tb-rl;
+	-ms-writing-mode:tb-rl;
+		writing-mode:tb-rl;
+	text-align: center;
+	color: #5e5e5e;
+    font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 3px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.title_line_top,.title_line_bottom{
+	border-bottom: 2px solid #272822;
+    width: 30px;
+	height: 30px;
+	-webkit-transform: rotate(-35deg);
+	   -moz-transform: rotate(-35deg);
+	    -ms-transform: rotate(-35deg);
+	     -o-transform: rotate(-35deg);
+	        transform: rotate(-35deg);
+	position: absolute;
+	left: 0px;
+	margin-top: -40px;
+}
+.title_line_top{
+	top: 220px;
+}
+.title_line_bottom{
+	top: 570px;
+}
+.poverty_figure_item .content {
+	width: 250px;
+	height: 510px;
+	letter-spacing: 0.5px;
+    line-height: 20px;
+	font-weight: 500;
+	text-indent: 2em;
+	margin-top: 30px;
+	font-size: 13px;
+	position: absolute;
+	left: 50px;
+}
+.poverty_figure_item .header {
+	width: 500px;
+	margin-top: 40px;
+}
+
+.poverty_figure_menu{
+	width: 70px;
+	position: absolute;
+	left: 210px;
+	top: 180px;
+	list-style: none;
+	margin: 50px;
+}
+.poverty_figure_menu li{
+	width: 70px;
+	height: 25px;
+	box-shadow: 0px 0px 10px 0.5px #ccc;
+	color: #fff;
+    font-weight: bold;
+    line-height: 25px;
+    text-align: center;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	position: relative;
+	cursor: pointer;
+	font-size: 13px;
+}
+#tu4{
+	top: 70px;
+	left: 250px;
+	width: 30px;
+	z-index: 1000;
+}
+.poverty_figure_menu li:nth-child(1){
+    background: -webkit-linear-gradient(left,#d5c9d5,#b472b1);
+    background: -moz-linear-gradient(left,#d5c9d5,#b472b1);
+    background: -o-linear-gradient(left,#d5c9d5,#b472b1);
+    background: linear-gradient(to right,#d5c9d5,#b472b1);
+    z-index: 999;
+}
+.poverty_figure_menu li:nth-child(2){
+	background: -webkit-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -moz-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: -o-linear-gradient(left,#e5e5e5,#8cbe65);
+	background: linear-gradient(to right,#e5e5e5,#8cbe65);
+	left: 30px;
+	z-index: 667;
+}
+.poverty_figure_menu li:nth-child(3){
+	background: -webkit-linear-gradient(left,#d4c486,#d2895c);
+	background: -moz-linear-gradient(left,#d4c486,#d2895c);
+	background: -o-linear-gradient(left,#d4c486,#d2895c);
+	background: linear-gradient(to right,#d4c486,#d2895c);
+	left: 60px;
+	z-index: 334;
+}
+
+.poverty_figure_item.item1{
+	background-color: #fff;
+}
+.poverty_figure_item.item2{
+	background-color: #b9d6f6;
+}
+.poverty_figure_item.item3{
+	background-color: #4877c9;
+}
+/* figure : 1 */
+.poverty_figure_panel.figure1 .item2{
+	top: 115px;
+	left: 10px;
+	z-index: 666;
+}
+.poverty_figure_panel.figure1 .item1{
+	top: 130px;
+	left: 0px;
+	z-index: 999;
+}
+/* figure : 2 */
+.poverty_figure_panel.figure2 .item2{
+	top: 160px;
+	left: 10px;
+	z-index: 999;
+}
+.poverty_figure_panel.figure2 .item1{
+	top: 130px;
+	left: 0px;
+	z-index: 666;
+}
+
+/* figure : 3 */
+.poverty_figure_panel.figure3 .item3{
+	top: 160px;
+	left: 30px;
+	z-index: 999;
+}
+.poverty_figure_panel.figure3 .item1{
+	top: 130px;
+	left: 50px;
+	z-index: 666;
+}
+
+
+
+@media screen and (max-width: 780px)
+{
+	.navigate ul li a,.navigate a, .navigate a:hover, .navigate a:visited{
+		color: #fff;
+	}
+}

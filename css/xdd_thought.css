@@ -1,0 +1,1355 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "微软雅黑";
+}
+a{
+	cursor:pointer;
+}
+#background{
+	background: url('../images/medical_bg.png') no-repeat;
+	height: 5900px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#politician{
+	background: url('../images/thought_banner1.png') no-repeat;
+	height: 893px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	   position: relative;
+}
+/* #nav{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 20px;
+}
+#nav li{
+    width: 138px;
+    height: 47px;
+    display: inline-block;
+}
+#nav a{
+	display: block;
+	text-decoration: none;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    transition: all 0.3s;
+    color: #000;
+}
+#nav a:hover{
+	background-image: url('../images/menu_hover.png');
+} */
+#though{
+	background-image: url('../images/menu_hover.png');
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#content1{
+	width: 1400px;
+	height: 1000px;
+	position: relative;
+	left: 50%;
+	margin-left: -700px;
+	top: 300px;
+}
+#tu1{
+	width: 138px;
+	height: 45px;
+	position: relative;
+	left: 50px;
+}
+#content1_1{
+	width: 320px;
+	height: 30px;
+	position: relative;
+	top: -35px;
+	left: 200px;
+	background: #4978ca;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+}
+#content1 #p1{
+	position: relative;
+	text-align: center;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	top: 50px;
+	height: 200px;
+}
+#tu2{
+	position: relative;
+	top: -192px;
+	left: 7px;
+}
+#tu3{
+	position: relative;
+	left: 1240px;
+	top: -30px;
+}
+#p2{
+	position: absolute;
+	left: 150px;
+	top: 350px;
+	letter-spacing: 0.5px;
+	font-size: 19.5px;
+	color: #7c9bc5;
+	font-weight: bold;
+}
+#p3{
+	position: absolute;
+	left: 150px;
+	top: 395px;
+	letter-spacing: 0.5px;
+	color: #aaa;
+	font-weight: bold;
+}
+#tu4{
+	position: absolute;
+	top: 370px;
+	left: 50px;
+}
+#tu5{
+	width: 735px;
+	position: absolute;
+	top: 320px;
+	left: 690px;
+}
+#video{
+	position: absolute;
+	left: 800px;
+	top: 420px;
+	z-index: 999;
+	border: 6px solid #fff;
+	background: #000;
+}
+#tu6{
+	background: url('../images/techology_cutline.png') no-repeat;
+	height: 707px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	position: relative;
+	top: -100px;
+}
+#content2{
+	width: 1400px;
+	position: relative;
+	left: 50%;
+	margin-left: -700px;
+	top: -50px;
+}
+#tu7{ 
+	position: absolute;
+	width: 1180px;
+	left: 50%;
+	margin-left: -590px;
+}
+#h3_1{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 630px;
+	top: 200px;
+	font-size: 21px;
+}
+#yuan1{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	background-color: #d6e5fc;
+	border-radius: 50%;
+	left: 740px;
+	top: 175px;
+}
+#p4{
+	position: absolute;
+	width: 800px;
+	top: 240px;
+	left: 50%;
+	margin-left: -400px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+#tu8{
+	position: absolute;
+	top: 330px;
+	left: 230px;
+}
+#tu9{
+	position: absolute;
+	top: 510px;
+	left: 600px;
+	transform:rotate(-80deg);
+    -ms-transform:rotate(-80deg); /* Internet Explorer */
+    -moz-transform:rotate(-80deg); /* Firefox */
+    -webkit-transform:rotate(-80deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-80deg); /* Opera */
+}
+#content2_1{
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	background: #fff;
+	left: 850px;
+	top: 325px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 23px;
+	border: 20px solid #fff; 
+	font-family: "微软雅黑";
+	letter-spacing: 0.1px;
+	box-shadow: #ccc 0px 0px 25px 5px;
+	transform:rotate(5deg);
+    -ms-transform:rotate(5deg); /* Internet Explorer */
+    -moz-transform:rotate(5deg); /* Firefox */
+    -webkit-transform:rotate(5deg); /* Safari 和 Chrome */
+    -o-transform:rotate(5deg); /* Opera */
+}
+#content2_2{
+	background: url('../images/xdd_blue_backgroud.png') no-repeat;
+	position: absolute;
+	width: 230px;
+	height: 167px;
+	left: 685px;
+	top: 435px;
+}
+#content2_2_span{
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	top: 70px;
+	left: 40px;
+	letter-spacing: 1px;
+	transform:rotate(-4deg);
+    -ms-transform:rotate(-4deg); /* Internet Explorer */
+    -moz-transform:rotate(-4deg); /* Firefox */
+    -webkit-transform:rotate(-4deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-4deg); /* Opera */
+}
+#tu10{
+	position: absolute;
+	left: 780px;
+	top: 640px;
+	transform:rotate(5deg);
+    -ms-transform:rotate(5deg); /* Internet Explorer */
+    -moz-transform:rotate(5deg); /* Firefox */
+    -webkit-transform:rotate(5deg); /* Safari 和 Chrome */
+    -o-transform:rotate(5deg); /* Opera */
+}
+#h3_2{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 630px;
+	top: 760px;
+	font-size: 21px;
+}
+#p5{
+	width: 1050px;
+	position: absolute;
+	left: 50%;
+	margin-left: -525px;
+	top: 800px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+}
+#yuan2{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	background-color: #d6e5fc;
+	border-radius: 50%;
+	left: 585px;
+	top: 735px;
+}
+#tu11{
+	position: absolute;
+	left: 630px;
+	top: 920px;
+	transform:rotate(30deg);
+    -ms-transform:rotate(30deg); /* Internet Explorer */
+    -moz-transform:rotate(30deg); /* Firefox */
+    -webkit-transform:rotate(30deg); /* Safari 和 Chrome */
+    -o-transform:rotate(30deg); /* Opera */
+}
+#content2_3{
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	background: #fff;
+	left: 260px;
+	top: 1060px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 23px;
+	border: 20px solid #fff; 
+	font-family: "微软雅黑";
+	letter-spacing: 0.1px;
+	box-shadow: #ccc 0px 0px 25px 5px;
+	transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg); /* Internet Explorer */
+    -moz-transform:rotate(-5deg); /* Firefox */
+    -webkit-transform:rotate(-5deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-5deg); /* Opera */
+}
+#content2_4{
+	background: url('../images/xdd_blue_backgroud.png') no-repeat;
+	position: absolute;
+	width: 230px;
+	height: 167px;
+	left: 440px;
+	top: 1200px;
+	transform:rotate(10deg);
+    -ms-transform:rotate(10deg); /* Internet Explorer */
+    -moz-transform:rotate(10deg); /* Firefox */
+    -webkit-transform:rotate(10deg); /* Safari 和 Chrome */
+    -o-transform:rotate(10deg); /* Opera */
+}
+#content2_4_span{
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	top: 70px;
+	left: 40px;
+	letter-spacing: 1px;
+	transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg); /* Internet Explorer */
+    -moz-transform:rotate(-3deg); /* Firefox */
+    -webkit-transform:rotate(-3deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-3deg); /* Opera */
+}
+#tu12{
+	position: absolute;
+	top: 1100px;
+	left: 850px;
+}
+#h3_3{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 220px;
+	top: 1400px;
+	font-size: 21px;
+}
+#p6{
+	width: 530px;
+	position: absolute;
+	top:1440px;
+	left: 220px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+}
+#tu13{
+	position: absolute;
+	top: 1480px;
+	left: 880px;
+}
+#h3_4{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 630px;
+	top: 1600px;
+	font-size: 21px;
+}
+#p7{
+	width: 800px;
+	position: absolute;
+	top:1640px;
+	left: 50%;
+	margin-left: -400px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+}
+#tu14{
+	position: absolute;
+	top: 1850px;
+	left: 200px;
+}
+#yuan3{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	background-color: #d6e5fc;
+	border-radius: 50%;
+	left: 730px;
+	top: 1575px;
+}
+#tu15{
+	position: absolute;
+	top: 1700px;
+	left: 670px;
+}
+#content2_5{
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	background: #fff;
+	left: 850px;
+	top: 1800px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 23px;
+	border: 20px solid #fff; 
+	font-family: "微软雅黑";
+	letter-spacing: 0.1px;
+	box-shadow: #ccc 0px 0px 25px 5px;
+	transform:rotate(5deg);
+    -ms-transform:rotate(5deg); /* Internet Explorer */
+    -moz-transform:rotate(5deg); /* Firefox */
+    -webkit-transform:rotate(5deg); /* Safari 和 Chrome */
+    -o-transform:rotate(5deg); /* Opera */
+}
+#content2_6{
+	background: url('../images/xdd_blue_backgroud.png') no-repeat;
+	position: absolute;
+	width: 230px;
+	height: 167px;
+	left: 685px;
+	top:1900px;
+}
+#content2_6_span{
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	top: 70px;
+	left: 40px;
+	letter-spacing: 1px;
+	transform:rotate(-4deg);
+    -ms-transform:rotate(-4deg); /* Internet Explorer */
+    -moz-transform:rotate(-4deg); /* Firefox */
+    -webkit-transform:rotate(-4deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-4deg); /* Opera */
+}
+#h3_5{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 710px;
+	top: 2100px;
+	font-size: 21px;
+}
+#p8{
+	width: 500px;
+	position: absolute;
+	top:2140px;
+	left: 710px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+}
+#h3_6{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 630px;
+	top: 2340px;
+	font-size: 21px;
+}
+#p9{
+	width: 900px;
+	position: absolute;
+	top:2380px;
+	left: 270px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+	text-align: center;
+}
+#tu16{
+	position: absolute;
+	top: 2250px;
+	left: 690px;
+}
+#yuan4{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	background-color: #d6e5fc;
+	border-radius: 50%;
+	left: 590px;
+	top: 2320px;
+}
+#content2_7{
+	position: absolute;
+	width: 300px;
+	height: 150px;
+	background: #fff;
+	left: 260px;
+	top: 2490px;
+	text-align: center;
+	font-size: 15px;
+	line-height: 23px;
+	border: 20px solid #fff; 
+	font-family: "微软雅黑";
+	letter-spacing: 0.1px;
+	box-shadow: #ccc 0px 0px 25px 5px;
+	transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg); /* Internet Explorer */
+    -moz-transform:rotate(-5deg); /* Firefox */
+    -webkit-transform:rotate(-5deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-5deg); /* Opera */
+}
+#content2_8{
+	background: url('../images/xdd_blue_backgroud.png') no-repeat;
+	position: absolute;
+	width: 230px;
+	height: 167px;
+	left: 440px;
+	top: 2630px;
+	transform:rotate(10deg);
+    -ms-transform:rotate(10deg); /* Internet Explorer */
+    -moz-transform:rotate(10deg); /* Firefox */
+    -webkit-transform:rotate(10deg); /* Safari 和 Chrome */
+    -o-transform:rotate(10deg); /* Opera */
+}
+#content2_8_span{
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+	top: 70px;
+	left: 40px;
+	letter-spacing: 1px;
+	transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg); /* Internet Explorer */
+    -moz-transform:rotate(-3deg); /* Firefox */
+    -webkit-transform:rotate(-3deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-3deg); /* Opera */
+}
+#tu17{
+	position: absolute;
+	top: 2550px;
+	left: 850px;
+}
+#h3_7{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 220px;
+	top: 2820px;
+	font-size: 21px;
+}
+#p10{
+	width: 530px;
+	height: 140px;
+	position: absolute;
+	top:2860px;
+	left: 220px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+}
+#tu18{
+	position: absolute;
+	top: 2910px;
+	left: 870px;
+}
+#h3_8{
+	position: absolute;
+	color: #3366cc;
+	font-weight: 500;
+	left: 630px;
+	top: 3010px;
+	font-size: 21px;
+}
+#p11{
+	width: 850px;
+	position: absolute;
+	top:3050px;
+	left: 310px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	line-height: 23px;
+	text-align: center;
+}
+#yuan5{
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	background-color: #d6e5fc;
+	border-radius: 50%;
+	left: 800px;
+	top: 2980px;
+}
+#foot_back{
+	position: relative;
+	height: 400px;
+	min-width: 1400px;
+	max-width: 2580px;
+	top: 3230px;
+	background-color: #e8f1ff;
+}
+#foot{
+	background: url('../images/medical_footer_bg.png') no-repeat;
+	position: relative;
+	height: 615px;
+	top: 2750px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#tu19{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 50px;
+}
+#foot1{
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+#politician_nr{
+	position: absolute;
+	top: 360px;
+	width: 700px;
+	left: 50%;
+	margin-left: -640px;
+	text-align: right;
+	/* font-weight: bold; */
+	letter-spacing: 0.5px;
+}
+
+.video_controls{
+	width: 100%;
+	position: absolute;
+	bottom: 11px;
+	left: 0;
+	background:-webkit-linear-gradient( #171717,#262626);
+	background:-moz-linear-gradient( #171717,#262626);
+	background:-o-linear-gradient( #171717,#262626);
+	background:linear-gradient( #171717,#262626);
+	border-radius: 8px 8px 0 0;
+	color: #c1c1c1;
+	z-index: 999;
+}
+.video_controls i{
+	cursor: pointer;
+}
+.video_controls li.pause{
+	margin-left: 10px;
+}
+.video_controls li.alt{
+	position: absolute;
+	right: 10px;
+}
+.video_controls i:hover{
+	color: #fff;
+}
+.video_controls li{
+	display: inline-block;
+	padding: 0 8px;
+	line-height: 36px;
+}
+.video_box{
+	
+}
+.video_panel{
+	position: relative;
+}
+.video_panel .video_mask{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	cursor: pointer;
+	z-index: 999;
+	display: none;
+}
+.video_panel .video_mask i{
+	display: block;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	margin-top: -35px;
+	margin-left: -30px;
+	color: #888888;
+	cursor: pointer;
+}
+.video_panel .video_mask i:hover{
+	color: #fff;
+}
+@media screen and (min-width: 780px) and (max-width: 1200px){
+	#background{
+	height: 4000px;
+	min-width: 780px;
+	max-width: 1200px;
+}
+#politician{
+	height: 600px;
+	min-width: 780px;
+	max-width: 1200px;
+}
+#content1{
+	width: 780px;
+	height: 700px;
+	left: 50%;
+	margin-left: -390px;
+	top: 180px;
+}
+#tu1{
+	left: 50px;
+}
+#content1 #p1{
+	left: 50px;
+	line-height: 24px;
+	top: 50px;
+	width: 700px;
+	height: 150px;
+}
+#tu2{
+	width: 50px;
+	top: -120px;
+	left: 0px;
+}
+#tu3{
+	width: 50px;
+	left: 675px;
+	top: 10px;
+}
+#p2{
+	left: 10px;
+	top: 350px;
+	letter-spacing: 0.5px;
+	font-size: 14px;
+}
+#p3{
+	left: 10px;
+	top: 380px;
+	font-size: 11px;
+	color: #aaa;
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+#tu4{
+	width: 350px;
+}
+#tu5{
+	width: 410px;
+	top: 320px;
+	left: 375px;
+}
+#video{
+	width: 350px;
+	height: 200px;
+	left: 415px;
+	top: 380px;
+}
+#tu6{
+	background: url('../images/techology_cutline.png') no-repeat;
+	height: 600px;
+	min-width: 780px;
+	max-width: 1200px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	position: relative;
+	top: -100px;
+}
+#content2{
+	width: 780px;
+	height: 3200px;
+	margin-left: -390px;
+	top: -50px;
+}
+#tu7{ 
+	width: 700px;
+	margin-left: -350px;
+}
+#h3_1{
+	font-weight: 500;
+	left: 330px;
+	top: 200px;
+	font-size: 20px;
+}
+#p4{
+	font-size: 12px;
+}
+#yuan1{
+	left: 350px;
+}
+#tu8{
+	width: 250px;
+	left: 0px;
+}
+#tu9{
+	top: 510px;
+	left: 260px;
+}
+#content2_1{
+	width: 250px;
+	left: 470px;
+}
+#content2_2{
+	left: 330px;
+}
+#tu10{
+	left: 450px;
+}
+#h3_2{
+	left: 330px;
+	font-size: 20px;
+}
+#p5{
+	width: 640px;
+	height: 85px;
+	margin-left: -320px;
+	font-size: 12px;
+}
+#yuan2{
+	width: 72px;
+	height: 72px;
+	left: 310px;
+	top: 735px;
+}
+#tu11{
+	left: 350px;
+}
+#content2_3{
+	width: 250px;
+	height: 150px;
+	left: 0px;
+	top: 1060px;
+	font-size: 15px;
+}
+#content2_4{
+	left: 190px;
+	top: 1200px;
+}
+#tu12{
+	width: 250px;
+	left: 500px;
+}
+#h3_3{
+	left: 0px;
+	font-size: 20px;
+}
+#p6{
+	width: 450px;
+	left: 0px;
+	font-size: 12px;
+}
+#tu13{
+	left: 550px;
+}
+#h3_4{
+	left: 330px;
+	top: 1600px;
+	font-size: 20px;
+}
+#p7{
+	width: 550px;
+	margin-left: -275px;
+	text-align: center;
+	font-size: 12px;
+}
+#tu14{
+	left: 0px;
+}
+#yuan3{
+	left: 400px;
+}
+#tu15{
+	left: 350px;
+}
+#content2_5{
+	width: 250px;
+	left: 470px;
+}
+#content2_6{
+	left: 320px;
+	top: 1930px;
+}
+#h3_5{
+	left: 380px;
+	top: 2110px;
+	font-size: 20px;
+}
+#p8{
+	width: 400px;
+	height: 100px;
+	top:2140px;
+	left: 375px;
+	font-size: 12px;
+}
+#h3_6{
+	left: 330px;
+	font-size: 20px;
+}
+#p9{
+	width: 600px;
+	position: absolute;
+	left: 100px;
+	font-size: 12px;
+
+}
+#tu16{
+	left: 400px;
+}
+#yuan4{
+	left: 310px;
+}
+#content2_7{
+	width: 250px;
+	left: 0px;
+}
+#content2_8{
+	left: 200px;
+}
+#tu17{
+	width: 300px;
+	left: 500px;
+}
+#h3_7{
+	left: 0px;
+	font-size: 20px;
+}
+#p10{
+	width: 460px;
+	left: 0px;
+	font-size: 12px;
+}
+#tu18{
+	left: 500px;
+}
+#h3_8{
+	left: 330px;
+	font-size: 20px;
+}
+#p11{
+	width: 550px;
+	position: absolute;
+	left: 150px;
+	font-size: 12px;
+}
+#yuan5{
+	left: 300px;
+}
+#foot_back{
+	position: relative;
+	height: 400px;
+	min-width: 780px;
+	max-width: 1200px;
+	top: 0px;
+}
+#foot{
+	height: 600px;
+	top: 0px;
+	margin-top: -500px;
+	min-width: 780px;
+	max-width: 1200px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#tu19{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 50px;
+}
+#foot1{
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+#politician_nr{
+	top: 230px;
+	width: 700px;
+	left: 50%;
+	font-size: 12px;
+	margin-left: -670px;
+	text-align: right;
+	letter-spacing: 0.5px;
+}
+}
+@media screen and (min-width: 0px) and (max-width: 780px){
+	#background{
+	background: url('../images/thought_banner_m.png') no-repeat;
+	height: 890px;
+	min-width: 390px;
+	max-width: 780px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	   position: relative;
+}
+#politician{
+	display: none;
+}
+#content1{
+	width: 390px;
+	height: 880px;
+	margin-left: -195px;
+	top: 880px;
+}
+#tu1{
+	width: 70px;
+	left: 0px;
+}
+#content1 #p1{
+	left: 5px;
+	line-height: 24px;
+	top: 30px;
+	width: 380px;
+	height: 150px;
+}
+#content1_1{
+	top: -22px;
+	left: 75px;
+	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+}
+#tu2{
+	width: 30px;
+	top: -150px;
+	left: 180px;
+}
+#tu3{
+	width: 30px;
+	left: 160px;
+	top: 70px;
+}
+#p2{
+	left: 10px;
+	top: 350px;
+	letter-spacing: 0.5px;
+	font-size: 15px;
+}
+#p3{
+	left: 10px;
+	top: 380px;
+	font-size: 15px;
+	color: #aaa;
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+#tu4{
+	top: 400px;
+	left: 0px;
+	width: 350px;
+}
+#tu5{
+	width: 390px;
+	top: 640px;
+	left: 0px;
+}
+#video{
+	width: 300px;
+	height: 180px;
+	left: 50px;
+	top: 700px;
+}
+#tu6{
+	background: url('../images/techology_cutline.png') no-repeat;
+	height: 300px;
+	min-width: 390px;
+	max-width: 780px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+	position: relative;
+	top: 1150px;
+}
+#content2{
+	width: 390px;
+	height: 3700px;
+	margin-left: -195px;
+	top: 1180px;
+	overflow: hidden;
+}
+#tu7{ 
+	width: 390px;
+	margin-left: -195px;
+}
+#h3_1{
+	font-weight: 500;
+	left: 140px;
+	top: 50px;
+	font-size: 15px;
+}
+#p4{
+	width: 380px;
+	height: 50px;
+	left: 400px;
+	font-size: 12px;
+	top: 75px;
+}
+#yuan1{
+	width: 40px;
+	height: 40px;
+	left: 120px;
+	top: 35px;
+}
+#tu8{
+	width: 250px;
+	left: 80px;
+	top: 110px;
+}
+#tu9{
+	top: 370px;
+	left: 180px;
+	transform:rotate(0deg);
+    -ms-transform:rotate(0deg); /* Internet Explorer */
+    -moz-transform:rotate(0deg); /* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+    -o-transform:rotate(0deg); /* Opera */
+}
+#content2_1{
+	top: 430px;
+	width: 250px;
+	left: 0px;
+}
+#content2_2{
+	top: 580px;
+	left: 150px;
+}
+#tu10{
+	top: 750px;
+	left: 180px;
+}
+#h3_2{
+	top: 800px;
+	left: 140px;
+	font-size: 15px;
+}
+#p5{
+	top: 825px;
+	width: 380px;
+	height: 110px;
+	margin-left: -190px;
+	font-size: 12px;
+}
+#yuan2{
+	width: 40px;
+	height: 40px;
+	left: 140px;
+	top: 800px;
+}
+#tu11{
+	top: 950px;
+	left: 180px;
+		transform:rotate(0deg);
+    -ms-transform:rotate(0deg); /* Internet Explorer */
+    -moz-transform:rotate(0deg); /* Firefox */
+    -webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+    -o-transform:rotate(0deg); /* Opera */
+}
+#content2_3{
+	width: 250px;
+	height: 150px;
+	left: 0px;
+	top: 1010px;
+	font-size: 15px;
+}
+#content2_4{
+	left: 170px;
+	top: 1150px;
+}
+#tu12{
+	top: 1300px;
+	width: 250px;
+	left: 100px;
+}
+#h3_3{
+	top: 1550px;
+	left: 140px;
+	font-size: 15px;
+}
+#p6{
+	top: 1570px;
+	width: 380px;
+	height: 80px;
+	left: 0px;
+	font-size: 12px;
+}
+#tu13{
+	top: 1500px;
+	left: 180px;
+}
+#h3_4{
+	left: 140px;
+	top: 1700px;
+	font-size: 15px;
+}
+#p7{
+	top: 1730px;
+	height: 50px;
+	width: 380px;
+	margin-left: -190px;
+	font-size: 12px;
+}
+#tu14{
+	top: 1790px;
+	left: 50px;
+}
+#yuan3{
+	height: 40px;
+	width: 40px;
+	top: 1690px;
+	left: 140px;
+}
+#tu15{
+	top: 1660px;
+	left: 170px;
+}
+#content2_5{
+	top: 2100px;
+	width: 250px;
+	left: 0px;
+}
+#content2_6{
+	top: 2240px;
+	left: 160px;
+}
+#h3_5{
+	left: 140px;
+	top: 2450px;
+	font-size: 15px;
+}
+#p8{
+	width: 380px;
+	height: 110px;
+	top:2470px;
+	left: 5px;
+	font-size: 12px;
+}
+#h3_6{
+	left: 140px;
+	font-size: 15px;
+	top: 2600px;
+}
+#p9{
+	width: 380px;
+	height: 85px;
+	left: 5px;
+	font-size: 12px;
+	top: 2620px;
+}
+#tu16{
+	left: 180px;
+	top: 2400px;
+}
+#yuan4{
+    display: none;
+}
+#content2_7{
+	width: 250px;
+	left: 0px;
+	top: 3080px;
+}
+#content2_8{
+	left: 170px;
+	top: 3210px;
+}
+#tu17{
+	top: 2700px;
+	width: 300px;
+	left: 50px;
+}
+#h3_7{
+	left: 120px;
+	height: 20px;
+	font-size: 15px;
+	top: 3400px;
+}
+#p10{
+	width: 380px;
+	height: 80px;
+	left: 5px;
+	font-size: 12px;
+	top: 3420px;
+}
+#tu18{
+	top: 3000px;
+	left: 180px;
+}
+#h3_8{
+	left: 140px;
+	font-size: 15px;
+	top: 3540px;
+}
+#p11{
+	width: 380px;
+	height: 80px;
+	left: 5px;
+	font-size: 12px;
+	top: 3560px;
+}
+#yuan5{
+	left: 300px;
+}
+#foot_back{
+	position: relative;
+	height: 400px;
+	min-width: 390px;
+	max-width: 780px;
+	top: 0px;
+	display: none;
+}
+#foot{
+	height: 400px;
+	top: 0px;
+	margin-top: 1590px;
+	min-width: 390px;
+	max-width: 780px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#tu19{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 50px;
+}
+#foot1{
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+}

@@ -1,0 +1,1196 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "微软雅黑";
+}
+a{
+	cursor:pointer;
+}
+#background{
+	background: url('../images/biologist_bg1.png') no-repeat;
+	height: 4400px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%; 
+}
+#politician{
+	background: url('../images/country_banner.png') no-repeat;
+	height: 893px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: relative;
+}
+/* #nav{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 20px;
+}
+#nav li{
+    width: 138px;
+    height: 47px;
+    display: inline-block;
+}
+#nav a{
+	display: block;
+	text-decoration: none;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    transition: all 0.3s;
+    color: #000;
+} */
+#ordinary{
+	background-image: url('../images/menu_hover.png');
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#content1{
+	background: url('../images/country_doctor_background.png') no-repeat;
+	position: relative;
+	height: 1012px;
+	width: 1319px;
+	top: 200px;
+	left: 50%;
+	margin-left: -659.5px;
+}
+#background1{
+	background: url('../images/country_doctor_background1.png') no-repeat;
+	height: 411px;
+	width: 1314px;
+	position: relative;
+	top: 200px;
+	left: 50%;
+	margin-left: -670px;
+}
+#content2{
+	width: 1300px;
+	height: 1050px;
+	position: relative;
+	left: 50%;
+	top: -1050px;
+	margin-left: -650px;
+}
+#span1{
+	position: absolute;
+	font-size: 14px;
+	line-height: 22px;
+	font-family: "微软雅黑";
+	width: 215px;
+	height: 580px;
+	text-indent: 2em;
+}
+#tu1{
+	position: absolute;
+	top: 580px;
+	width: 230px;
+	border-radius: 15px;
+}
+#tu2{
+	position: absolute;
+	border-radius: 15px;
+	width: 230px;
+	left: 245px;
+}
+#span2{
+	position: absolute;
+	font-size: 14px;
+	line-height: 22px;
+	top: 250px;
+	left: 255px;
+	font-family: "微软雅黑";
+	width: 215px;
+	height: 560px;
+	text-indent: 2em;
+}
+#tu3{
+	position: absolute;
+	left: 530px;
+	border-radius: 15px;
+}
+#span3{
+	position: absolute;
+	font-size: 14px;
+	line-height: 22px;
+	top: 700px;
+	left: 530px;
+	font-family: "微软雅黑";
+	width: 250px;
+	text-indent: 2em;
+}
+#name1{
+	position: absolute;
+	bottom: 100px;
+	right:50px;
+	letter-spacing: 3px;
+}
+#content7{
+	position: relative;
+	width: 1300px;
+	height: 300px;
+	top: -1850px;
+	left: 50%;
+	margin-left: -660px;
+}
+#tu6{
+	position: absolute;
+	width: 230px;
+	left: 30px;
+	top: 10px;
+	border: 5px solid #fff;
+}
+#tu7{
+	position: absolute;
+	width: 230px;
+	left: 280px;
+	top: 10px;
+	border: 5px solid #fff;
+}
+#tu8{
+	position: absolute;
+	width: 230px;
+	left: 530px;
+	top: 10px;
+	border: 5px solid #fff;
+}
+#tu9{
+	position: absolute;
+	width: 230px;
+	left: 780px;
+	top: 10px;
+	border: 5px solid #fff;
+}
+#tu10{
+	position: absolute;
+	width: 230px;
+	left: 1030px;
+	top: 10px;
+	border: 5px solid #fff;
+}
+#content7 a.active img{
+	border: 5px solid #000;
+}
+/* #content7 a:hover #tu6,#content7 a:hover #tu7,#content7 a:hover #tu8,#content7 a:hover #tu9,#content7 a:hover #tu10{
+	border: 5px solid #000;
+} */
+#content8{
+	background: url('../images/techology_cutline.png') no-repeat;
+	position: relative;
+	height: 707px;
+	min-width: 1400px;
+	max-width: 2580px;
+	top: -1200px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#content9{
+	position: relative;
+	width: 1300px;
+	height: 1000px;
+	left: 50%;
+	margin-top: -1480px;
+	margin-left: -650px;
+}
+#background2{
+	background: url('../images/country_teacher_backgroud2.png') no-repeat;
+	position: absolute;
+	width: 601px;
+	height: 32px;
+	color:#4b79cc;
+	font-family: "微软雅黑";
+	letter-spacing: 4px;
+	font-size: 20px;
+}
+#background2 h3{
+	margin-left: 25px;
+	height: 22px;
+}
+#nr1{
+	background: url('../images/enterprise_rudder.png') no-repeat;
+	position: absolute;
+	left: 25px;
+	width: 520px;
+	height: 40px;
+	top: 70px;
+	color:#688ed4;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+}
+h4{
+	margin-top: 3px;
+	margin-left:40px;
+	height: 20px;
+}
+#tu11{
+	position: absolute;
+	width: 160px;
+	top: 115px;
+	left: 30px;
+}
+#znr1{
+	position: absolute;
+	width: 370px;
+	height: 140px;
+	top: 115px;
+	left: 215px;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+}
+#znr2{
+	position: absolute;
+	width: 560px;
+	height: 85px;
+	top: 260px;
+	left: 30px;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+}
+#nr2{
+	background: url('../images/enterprise_rudder.png') no-repeat;
+	position: absolute;
+	width: 520px;
+	height: 40px;
+	left: 25px;
+	top: 370px;
+	color:#688ed4;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+}
+#tu12{
+	position: absolute;
+	width: 160px;
+	top: 415px;
+	left: 30px;
+}
+#znr3{
+	position: absolute;
+	width: 370px;
+	height: 80px;
+	top: 415px;
+	left: 215px;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+}
+#znr4{
+	position: absolute;
+	width: 560px;
+	height: 80px;
+	top: 550px;
+	left: 30px;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+}
+#nr3{
+	background: url('../images/enterprise_rudder.png') no-repeat;
+	position: absolute;
+	width: 520px;
+	left: 25px;
+	height: 40px;
+	top: 660px;
+	color:#688ed4;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+}
+#tu13{
+	position: absolute;
+	width: 160px;
+	top: 705px;
+	left: 30px;
+}
+#znr5{
+	position: absolute;
+	width: 370px;
+	height: 140px;
+	top: 705px;
+	left: 215px;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+}
+#znr6{
+	position: absolute;
+	width: 560px;
+	height: 80px;
+	top: 840px;
+	left: 30px;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+}
+#tu14{
+	position: absolute;
+	width: 200px;
+	left: 640px;
+	top: 70px;
+}
+#nr4{
+	position: absolute;
+	width: 400px;
+	height: 40px;
+	left: 820px;
+	top: 80px;
+	color:#688ed4;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	letter-spacing: 2px;
+}
+#znr7{
+	position: absolute;
+	width: 400px;
+	height: 195px;
+	top: 130px;
+	left: 860px;
+	font-size: 14px;
+	line-height: 24px;
+	text-indent: 2em;
+}
+
+.touching_panel{
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	bottom: 60px;
+	height: 525px;
+	width: 681px;
+	text-indent: 2em;
+}
+.touching_list{
+	position: absolute;
+	top: 0;
+	height: 1575px;
+}
+.touching_list li{
+	width: 641px;
+	height: 135px;
+	list-style: none;
+	font-size: 14px;
+	line-height: 24px;
+	background: url('../images/country_teacher_backgroud4.png') no-repeat left center / 100% 100%;
+	padding: 20px 0 0 40px;
+	margin-bottom: 30px;
+}
+.touching_box{
+	position: relative;
+}
+#background4{
+	background: url('../images/country_teacher_backgroud4.png') no-repeat;
+	position: absolute;
+	width:641px;
+	height: 135px;
+	top: 440px;
+	left: 645px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#back_span1{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+#background3{
+	background: url('../images/country_teacher_backgroud3.png') no-repeat;
+	position: absolute;
+	width:345px;
+	height: 32px;
+	top: 360px;
+	left: 640px;
+	color:#4b79cc;
+	font-family: "微软雅黑";
+	letter-spacing: 4px;
+	font-size: 20px;
+}
+#background3 h3{
+	margin-left: 25px;
+}
+#background5{
+	background: url('../images/country_teacher_backgroud4.png') no-repeat;
+	position: absolute;
+	width:641px;
+	height: 135px;
+	top: 615px;
+	left: 645px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#back_span2{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+#background6{
+	background: url('../images/country_teacher_backgroud4.png') no-repeat;
+	position: absolute;
+	width:641px;
+	height: 135px;
+	top: 790px;
+	left: 645px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#back_span3{
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+#foot{
+	background: url('../images/medical_footer_bg.png') no-repeat;
+	position: relative;
+	height: 615px;
+	min-width: 1400px;
+	max-width: 2580px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#tu19{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 50px;
+}
+#foot1{
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+#politician_nr{
+	position: absolute;
+	width: 700px;
+	left: 50%;
+	margin-left: -680px;
+	top: 340px;
+	text-align: right;
+	/* font-weight: bold; */
+	letter-spacing: 0.5px;
+}
+@media screen and (min-width: 780px) and (max-width: 1200px){
+	#background{
+	height: 3100px;
+	min-width: 780px;
+	max-width: 1400px; 
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%; 
+}
+#politician{
+	height: 600px;
+	min-width: 780px;
+	max-width: 1400px;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+#content1{
+	width: 780px;
+	top: 200px;
+	margin-left: -390px;
+	-o-background-size: 100%;
+	   background-size: 100%;
+}
+#background1{
+	width: 780px;
+	top: 100px;
+	margin-left: -390px;
+	-o-background-size: 100%;
+	   background-size: 100%;
+}
+#content2{
+	width: 780px;
+	height: 900px;
+	position: relative;
+	top: -1050px;
+	margin-left: -390px;
+}
+#span1{
+	font-size: 11px;
+	line-height: 20px;
+	width: 150px;
+}
+#tu1{
+	position: absolute;
+	top: 580px;
+	width: 150px;
+	border-radius: 15px;
+}
+#tu2{
+	border-radius: 15px;
+	width: 150px;
+	left: 155px;
+}
+#span2{
+	font-size: 11px;
+	line-height: 20px;
+	top: 150px;
+	left: 155px;
+	width: 150px;
+}
+#tu3{
+	width: 440px;
+	left: 315px;
+	border-radius: 15px;
+}
+#span3{
+	font-size: 11px;
+	line-height: 20px;
+	top: 450px;
+	left: 315px;
+	width: 200px;
+}
+#name1{
+	position: absolute;
+	font-size: 15px;
+	bottom: 100px;
+	right:50px;
+	letter-spacing: 3px;
+}
+#content7{
+	width: 760px;
+	height: 300px;
+	top: -1750px;
+	margin-left: -390px;
+}
+#tu6{
+	width: 140px;
+	left: 5px;
+	top: 10px;
+}
+#tu7{
+	width: 140px;
+	left: 158px;
+	top: 10px;
+}
+#tu8{
+	width: 140px;
+	left: 310px;
+	top: 10px;
+}
+#tu9{
+	width: 140px;
+	left: 462px;
+	top: 10px;
+}
+#tu10{
+	width: 140px;
+	left: 615px;
+	top: 10px;
+}
+#content7 a:hover #tu6,#content7 a:hover #tu7,#content7 a:hover #tu8,#content7 a:hover #tu9,#content7 a:hover #tu10{
+	border: 5px solid #000;
+}
+#content8{
+	height: 600px;
+	min-width: 780px;
+	max-width: 1400px;
+	top: -1200px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#content9{
+	position: relative;
+	width: 760px;
+	height: 900px;
+	margin-top: -1480px;
+	margin-left: -380px;
+}
+#background2{
+	background: url('../images/country_teacher_backgroud2.png') no-repeat;
+	position: absolute;
+	width: 370px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	-o-background-size: 100%;
+	   background-size: 100%;
+}
+#background2 h3{
+	margin-left: 10px;
+	margin-top: -5px;
+}
+#nr1{
+	left: 0px;
+	width: 300px;
+	height: 40px;
+	top: 40px;
+	letter-spacing: 0.5px;
+}
+h4{
+	margin-top: 3px;
+	margin-left:28px;
+	font-size: 12px;
+}
+#tu11{
+	width: 100px;
+	top: 80px;
+	left: 10px;
+}
+#znr1{
+	width: 270px;
+	height: 85px;
+	top: 70px;
+	left: 115px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#znr2{
+	width: 370px;
+	height: 80px;
+	top: 165px;
+	left: 10px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#nr2{
+	width: 520px;
+	height: 40px;
+	left: 0px;
+	top: 240px;
+	letter-spacing: 0.5px;
+	font-size: 13px;
+}
+#tu12{
+	width: 100px;
+	top: 280px;
+	left: 5px;
+}
+#znr3{
+	width: 260px;
+	height: 80px;
+	top:275px;
+	left: 115px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#znr4{
+	width: 370px;
+	height: 80px;
+	top: 370px;
+	left:5px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#nr3{
+	width: 300px;
+	left: 0px;
+	height: 40px;
+	top: 430px;
+	letter-spacing: 0.5px;
+}
+#tu13{
+	width: 100px;
+	top: 470px;
+	left: 5px;
+}
+#znr5{
+	width: 260px;
+	top: 465px;
+	height: 85px;
+	left: 115px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#znr6{
+	width: 370px;
+	height: 80px;
+	top: 560px;
+	left: 5px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#tu14{
+	width: 140px;
+	left: 390px;
+	top: 70px;
+}
+#nr4{
+	width: 210px;
+	height: 40px;
+	left: 510px;
+	top: 80px;
+	letter-spacing: 0.5px;
+}
+#znr7{
+	width: 230px;
+	top: 105px;
+	left: 535px;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.touching_panel{
+	bottom: 150px;
+	height: 400px;
+	width: 400px;
+}
+.touching_list{
+	position: absolute;
+	top: 0;
+	height: 1575px;
+}
+.touching_list li{
+	width: 370px;
+	list-style: none;
+	font-size: 11px;
+	line-height: 15px;
+	background: url('../images/country_teacher_backgroud4.png') no-repeat left center / 100% 100%;
+	padding: 50px 0 0 30px;
+	margin-bottom: 0px;
+	-o-background-size: 100% 80%;
+	   background-size: 100% 80%;
+}
+.touching_box{
+	position: relative;
+}
+#background4{
+	width:300px;
+	top: 440px;
+	left: 390px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#back_span1{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+#background3{
+	width:230px;
+	top: 300px;
+	left: 390px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	-o-background-size: 100%;
+	   background-size: 100%;
+}
+#background3 h3{
+	margin-left: 10px;
+	margin-top: -5px;
+}
+#background5{
+	background: url('../images/country_teacher_backgroud4.png') no-repeat;
+	position: absolute;
+	width:641px;
+	height: 135px;
+	top: 615px;
+	left: 645px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#back_span2{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+#background6{
+	background: url('../images/country_teacher_backgroud4.png') no-repeat;
+	position: absolute;
+	width:641px;
+	height: 135px;
+	top: 790px;
+	left: 645px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#back_span3{
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+#foot{
+	height: 600px;
+	min-width: 780px;
+	max-width: 1200px;
+	margin-top: -200px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#tu19{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 50px;
+}
+#foot1{
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 400px;
+	left: 50%;
+	margin-left: -200px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+#politician_nr{
+	width: 700px;
+	margin-left: -680px;
+	top: 220px;
+	text-align: right;
+	letter-spacing: 0.1px;
+	font-size: 12px;
+}
+}
+@media screen and (min-width: 0px) and (max-width: 780px){
+	#background{
+	background: url('../images/ordinary_banner_m.png') no-repeat;
+	height: 890px;
+	min-width: 390px;
+	max-width: 780px;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+#politician{
+	display: none;
+}
+#content1{
+	width: 390px;
+	top: 840px;
+	margin-left: -195px;
+	-o-background-size: 100%;
+	   background-size: 100%;
+}
+#background1{
+	width: 380px;
+	height: 200px;
+	margin-left: -190px;
+	top: 1040px;
+}
+#content2{
+	width: 390px;
+	height: 900px;
+	top: -310px;
+	margin-left: -195px;
+}
+#span1{
+	font-size: 12px;
+	line-height: 20px;
+	width: 160px;
+}
+#tu1{
+	position: absolute;
+	top: 580px;
+	width: 160px;
+	border-radius: 15px;
+}
+#tu2{
+	border-radius: 15px;
+	width: 160px;
+	left: 220px;
+}
+#span2{
+	font-size: 12px;
+	line-height: 20px;
+	top: 160px;
+	left: 220px;
+	width: 160px;
+}
+#tu3{
+	width: 380px;
+	left: 5px;
+	top: 750px;
+	border-radius: 15px;
+}
+#span3{
+	font-size: 11px;
+	line-height: 20px;
+	top: 1130px;
+	left: 5px;
+	width: 200px;
+	height: 80px;
+}
+#name1{
+	position: absolute;
+	font-size: 15px;
+	bottom: -350px;
+	right:50px;
+	letter-spacing: 2px;
+}
+#content7{
+	width: 390px;
+	height: 300px;
+	top: -350px;
+	margin-left: -195px;
+}
+#tu6{
+	width: 70px;
+	left: 5px;
+	top: 10px;
+	border: 2px solid #fff;
+}
+#tu7{
+	width: 70px;
+	left: 83px;
+	top: 10px;
+	border: 2px solid #fff;
+}
+#tu8{
+	width: 70px;
+	left: 160px;
+	top: 10px;
+	border: 2px solid #fff;
+}
+#tu9{
+	width: 70px;
+	left: 235px;
+	top: 10px;
+	border: 2px solid #fff;
+}
+#tu10{
+	width: 70px;
+	left: 310px;
+	top: 10px;
+	border: 2px solid #fff;
+}
+#content7 a:hover #tu6,#content7 a:hover #tu7,#content7 a:hover #tu8,#content7 a:hover #tu9,#content7 a:hover #tu10{
+	border: 2px solid #000;
+}
+#content8{
+	height: 400px;
+	min-width: 390px;
+	max-width: 780px;
+	top: -30px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#content9{
+	width: 390px;
+	height: 900px;
+	margin-top: -340px;
+	margin-left: -195px;
+	/* overflow: auto; */
+}
+
+#background2{
+	background: url('../images/country_teacher_backgroud2.png') no-repeat;
+	position: absolute;
+	width: 370px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	-o-background-size: 100%;
+	   background-size: 100%;
+}
+#background2 h3{
+	margin-left: 10px;
+	margin-top: -5px;
+}
+#nr1{
+	left: 0px;
+	width: 300px;
+	height: 40px;
+	top: 40px;
+	letter-spacing: 0.5px;
+}
+h4{
+	margin-top: 3px;
+	margin-left:28px;
+	font-size: 12px;
+}
+#h4_right{
+	position: absolute;
+	top: 570px;
+	left: -380px;
+	width: 200px;
+}
+#tu11{
+	width: 100px;
+	top: 80px;
+	left: 10px;
+}
+#znr1{
+	width: 270px;
+	height: 85px;
+	top: 70px;
+	left: 115px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#znr2{
+	width: 370px;
+	height: 80px;
+	top: 165px;
+	left: 10px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#nr2{
+	width: 390px;
+	height: 40px;
+	left: 0px;
+	top: 240px;
+	letter-spacing: 0.5px;
+	font-size: 13px;
+}
+#tu12{
+	width: 100px;
+	top: 280px;
+	left: 5px;
+}
+#znr3{
+	width: 260px;
+	height: 80px;
+	top:275px;
+	left: 115px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#znr4{
+	width: 370px;
+	height: 80px;
+	top: 370px;
+	left:5px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#nr3{
+	width: 300px;
+	left: 0px;
+	height: 40px;
+	top: 430px;
+	letter-spacing: 0.5px;
+}
+#tu13{
+	width: 100px;
+	top: 470px;
+	left: 5px;
+}
+#znr5{
+	width: 260px;
+	top: 465px;
+	height: 85px;
+	left: 115px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#znr6{
+	width: 370px;
+	height: 80px;
+	top: 560px;
+	left: 5px;
+	font-size: 11px;
+	line-height: 15px;
+}
+#tu14{
+	width: 140px;
+	left: 5px;
+	top: 650px;
+}
+#nr4{
+	width: 210px;
+	height: 40px;
+	left: 510px;
+	top: 80px;
+	letter-spacing: 0.5px;
+}
+#znr7{
+	width: 230px;
+	height: 155px;
+	top: 680px;
+	left: 160px;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.touching_panel{
+	bottom: -400px;
+	height: 400px;
+	width: 400px;
+}
+.touching_list{
+	position: absolute;
+	top: 0;
+	height: 1575px;
+}
+.touching_list li{
+	width: 370px;
+	list-style: none;
+	font-size: 11px;
+	line-height: 15px;
+	background: url('../images/country_teacher_backgroud4.png') no-repeat left center / 100% 100%;
+	padding: 50px 0 0 30px;
+	margin-bottom: 0px;
+	-o-background-size: 100% 80%;
+	   background-size: 100% 80%;
+}
+.touching_box{
+	position: relative;
+}
+#background4{
+	width:300px;
+	top: 440px;
+	left: 390px;
+	font-size: 14px;
+	line-height: 24px;
+}
+#back_span1{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+#background3{
+	width:230px;
+	top: 860px;
+	left: 10px;
+	letter-spacing: 2px;
+	font-size: 14px;
+	-o-background-size: 100%;
+	   background-size: 100%;
+}
+#background3 h3{
+	margin-left: 10px;
+	margin-top: -5px;
+}
+#background5{
+	display: none;
+}
+#back_span2{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+#background6{
+display: none;
+}
+#back_span3{
+	position: absolute;
+	top: 10px;
+	left: 40px;
+}
+#foot{
+	height: 600px;
+	min-width: 390px;
+	max-width: 780px;
+	margin-top: 300px;
+	-o-background-size: 100% 100%;
+	   background-size: 100% 100%;
+}
+#tu19{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 50px;
+}
+#foot1{
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	width: 390px;
+	left: 50%;
+	margin-left: -195px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+#politician_nr{
+display: none;
+}
+}

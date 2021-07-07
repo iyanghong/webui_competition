@@ -1,0 +1,1552 @@
+.panel{
+    position: relative;
+}
+@media screen and (max-width:500px){
+    body{
+        overflow: hidden;
+    }
+}
+.technology_body{
+    background: url(../images/techology_bg.png) no-repeat;
+    position: relative;
+}
+.technology_banner{
+    min-height: 920px;
+}
+.banner_img{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%; 
+    width: 100%;
+}
+.astronomer_title{
+    width: 1200px;
+    height: 213px;
+    background: url(../images/astronomer_title.png) no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    margin: 260px auto 0 auto;
+    position: relative;
+}
+/* .astronomer_title img{
+    position: absolute;
+    top: 50%;  
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%; 
+    width: 100%;
+    margin: 0 25px;
+} */
+.astronomer_figure_popup_panel{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+@media (min-width:780px) and (max-width:1200px){
+
+    .astronomer_lh .astronomer_title{
+        width: 100%;
+    }
+    .astronomer_lh .astronomer_info{
+        width: 80%;
+    }
+    .astronomer_lh .astronomer_liheng{
+        width: 100%;
+    }
+    .astronomer_lh .astronomer_liheng .astronomer_figure_headimg{
+        width: 400px;
+    }
+    .astronomer_lh .astronomer_liheng .astronomer_figure_headimg .astronomer_figure_list_panel{
+        width: 100%;
+    }
+    .astronomer_lh .astronomer_liheng .astronomer_figure_headimg .astronomer_figure_list_panel li.astronomer_figure_item{
+        width: 400px;
+    }
+    .astronomer_lh .astronomer_liheng .astronomer_figure_headimg .astronomer_figure_list{
+        width: 2500px;
+    }
+    section.cutbg{
+        -o-background-size: 100% auto;
+           background-size: 100% auto;
+    }
+    .astronomer_more .astronomer_figure_more{
+        width: 100%;
+    }
+    .astronomer_more .astronomer_figure_more .astronomer_figure_item{
+        width: 30%;
+    }
+    .astronomer_more .astronomer_figure_more .astronomer_figure_item img{
+        width: 100%;
+        /* height: ; */
+    }
+    .astronomer_more .astronomer_figure_more .astronomer_figure_item .astronomer_figure_mask{
+        width: 100%;
+    }
+    div.astronomer_figure_detail{
+        width: 100%;
+    }
+    div.astronomer_figure_detail .astronomer_figure_title{
+        width: 100%;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp1{
+        width: 80%;
+        left: 20px;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp2{
+        left: 155px;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp_img1{
+        right: 0;
+        top: 350px;
+        width: 120px;
+        height: 120px;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp_img2{
+        left: 100px;
+        width: 120px;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp_img3.panel{
+        top: -50px;
+        left: -50px;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences  img, div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp_img_bg.panel,div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp_img3.panel{
+        width: 120px;
+        height: 120px;
+    }
+}
+@media screen and (max-width:780px){
+    html,body{
+        width: 100%;
+        height: auto;
+        /* overflow: hidden; */
+    }
+    .navigate{
+        position: absolute;
+        z-index: 999;
+    }
+    html{
+        overflow: auto;
+    }
+    .technology_banner{
+        background: url(../images/technology_banner_bg_m.png) no-repeat left top / 100% 100%;
+    }
+    .banner_img{
+        display: none;
+    }
+    section.astronomer_lh{
+        width: 100%;
+        overflow: hidden;
+    }
+    div.astronomer_title{
+        width: 100%;
+        -o-background-size: 100% 60%;
+           background-size: 100% 60%;
+        /* background-position: -20%; */
+    }
+    div.astronomer_info{
+        width: 65%;
+    }
+    div.astronomer_liheng{
+        width: 100%;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+    }
+    .astronomer_lh .astronomer_liheng .astronomer_figure_name{
+        width: 10%;
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    .astronomer_lh .astronomer_liheng .astronomer_figure_info{
+        min-width: 70%;
+        width:  70%;
+        background-position:0 0;
+        margin-right: 25px;
+    }
+    .astronomer_lh .astronomer_liheng div.astronomer_figure_headimg{
+        width: 95%;
+        height: 350px;
+    }
+    .astronomer_lh .astronomer_liheng div.astronomer_figure_headimg .astronomer_figure_list_panel{
+        height: 350px;
+    }
+    .astronomer_figure_list_panel .astronomer_figure_list{
+        width: 500%;
+        height: 350px;
+    }
+    .astronomer_figure_list_panel .astronomer_figure_list .astronomer_figure_item{
+        width: 19.9%;
+        height: 350px;
+    }
+    div.astronomer_figure_list_panel{
+        width: 95%;
+    }
+    section.astronomer_more,.astronomer_more .astronomer_figure_more{
+        width: 100%;
+    }
+    .astronomer_more .astronomer_figure_more{
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+
+    }
+    
+    .astronomer_more .astronomer_figure_more .astronomer_figure_item{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+    }
+    .astronomer_more .astronomer_figure_more .astronomer_figure_mask{
+        position: absolute;
+        left: 50%;
+        margin-left: -150px;
+    }
+    .astronomer_more .astronomer_figure_more .astronomer_figure_item .astronomer_figure_info{
+        width: 150px;
+        position: relative;
+        left: 40%;
+        margin-left: -75px;
+    }
+    div.astronomer_figure_popup_panel,div.astronomer_figure_popup{
+        width: 95%;
+        margin-left: 0;
+        left: 2.5%;
+        top: 60px;
+    }
+    div.astronomer_figure_popup_panel{
+        width: 0;
+    }
+    div.astronomer_figure_detail{
+        width: 100%;
+    }
+    div.astronomer_figure_detail div.astronomer_figure_title{
+        width: 100%;
+        font-size: 14px;
+        -o-background-size: 200% 100%;
+           background-size: 200% 100%;
+        background-position: 50% 0;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences{
+        /* height: auto; */
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp1{
+        left: 10px;
+        width: 100%;
+        height: auto;
+        padding: 10px 10px; 
+        background: none;
+    }
+    .astronomer_exp_img1,.astronomer_exp_img2{
+        display: none;
+    }
+    div.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp2{
+        margin-top: 120px;
+        left: 10px;
+        width: 95%;
+        padding: 10px 10px; 
+        background: none;
+        bottom: -150px;
+    }
+}
+.astronomer_info{
+    /* font-family: "华文新魏"; */
+    width: 1250px;
+    line-height: 28px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 70px;
+    background: url(../images/astronomer_info_bg.png) top left no-repeat
+                ,url(../images/astronomer_info_bg2.png) bottom right no-repeat;
+}
+.astronomer_liheng{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    width: 1250px;
+    margin: 50px auto 0 auto;
+}
+.cutbg{
+    padding-bottom: 380px;
+    background: url(../images/techology_cutline.png) left bottom no-repeat;
+}
+.astronomer_liheng .astronomer_figure_name{
+    width: 50px;
+    height: 485px;
+    -webkit-writing-mode:tb-rl;
+        -ms-writing-mode:tb-rl;
+            writing-mode:tb-rl;
+    color: #4877ca;
+    font-size: 36px;
+    text-align: center;
+    margin-right: 50px;
+}
+.astronomer_liheng .astronomer_figure_name span{
+    color: #000;
+}
+.astronomer_liheng .astronomer_figure_info{
+    min-width: 392px;
+    height: 485px;
+    /* background: url(../images/astronomer_content_bg.png) left bottom repeat-x; */
+    background-position: 30px 0;
+    -webkit-writing-mode:tb-rl;
+        -ms-writing-mode:tb-rl;
+            writing-mode:tb-rl;
+    line-height: 48px;
+    /* font-family: "华文新魏"; */
+    overflow: hidden;
+}
+.astronomer_liheng .astronomer_figure_headimg{
+    margin-left: 30px;
+    width: 650px;
+    height: 485px;
+}
+.astronomer_figure_list_panel{
+    width: 100%;
+    width: 650px;
+    height: 485px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.astronomer_figure_list{
+   
+    position: absolute;
+    width: 3350px;
+}
+.astronomer_figure_list_panel li{
+    width: 650px;
+    height: 485px;
+    display: inline-block;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.astronomer_figure_list li.lx{
+    background-image: url(../images/astronomer_figure_lx.png);
+}
+.astronomer_figure_list li.cml{
+    background-image: url(../images/astronomer_figure_cml.png);
+}
+.astronomer_figure_list li.lqb{
+    background-image: url(../images/astronomer_figure_lqb.png);
+}
+.astronomer_figure_list li.ljq{
+    background-image: url(../images/astronomer_figure_ljq.png);
+}
+.astronomer_figure_list li.zyz{
+    background-image: url(../images/astronomer_figure_zyz.png);
+}
+
+.astronomer_figure_action{
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/astronomer_menu_next.png) no-repeat left center / 100% 100%;
+    top:220px;
+    cursor: pointer;
+}
+
+.astronomer_figure_action.pre{
+    left: 20px;
+    -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+         -o-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+.astronomer_figure_action.next{
+    right: 20px;
+
+}
+.astronomer_menu_dot{
+    background: rgba(0, 0, 0, 0.3);
+    height: 36px;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.astronomer_menu_dot li{
+    display: inline-block;
+    list-style: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 7px 8px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.astronomer_menu_dot li:hover,.astronomer_menu_dot li.active{
+    background-color: #282828	;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.astronomer_figure_more{
+    width: 1200px;
+    margin: 0 auto;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+}
+.astronomer_figure_more .astronomer_figure_item{
+    width: 300px;
+    position: relative;
+}
+.astronomer_figure_mask{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.2);
+    line-height: 300px;
+    text-align: center;
+    font-size: 36px;
+    z-index: 666;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+}
+.astronomer_figure_more .astronomer_figure_item img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.astronomer_figure_popup{
+    position: fixed;
+    width: 550px;
+    min-height: 600px;
+    top: 100px;
+    left: 50%;
+    margin-left: -275px;
+    background-color: #d7e3f3;
+    z-index: 999;
+    border-radius: 6px;
+    display: none;
+}
+.astronomer_figure_popup .title{
+    line-height: 40px;
+    background-color: #4877ca;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px 6px 0 0;
+}
+.astronomer_figure_popup .title .close{
+    width: 26px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    border-radius: 50%;
+    line-height: 40px;
+    cursor: pointer;
+}
+.astronomer_figure_popup .title .close:hover{
+    color: #888888;
+}
+.astronomer_figure_popup .content{
+    padding: 15px;
+    
+}
+.astronomer_figure_popup p{
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 28px;
+}
+.astronomer_figure_more .astronomer_figure_item .astronomer_figure_info{
+    -webkit-writing-mode: tb-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: tb-rl;
+    /* font-family: "宋体"; */
+    font-size: 14px;
+    line-height: 22px;
+    width: 150px;
+    height: 380px;
+    margin: 20px auto;
+}
+.astronomer_figure_detail{
+    width: 1500px;
+    margin: 100px auto;
+}
+.astronomer_figure_detail .astronomer_figure_title{
+    width: 100%;
+    height: 50px;
+    background: url(../images/astronomer_figure_title.png) no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+}
+.astronomer_figure_detail .astronomer_figure_experiences{
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp1{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    left: 120px;
+    background: url(../images/astronomer_elem1.png) left top no-repeat;
+    -o-background-size: 40px 100%;
+            background-size: 40px 100%;
+    padding-left: 80px;
+    padding-top: 120px;
+}
+.astronomer_figure_experiences p.first{
+    text-indent: 0;
+
+}
+.astronomer_figure_experiences p.first span{
+    color: #4877ca;
+    font-size: 16px;
+}
+.astronomer_figure_experiences p{
+    text-indent: 2em;
+}
+.astronomer_figure_detail .astronomer_figure_experiences span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.astronomer_figure_detail .astronomer_figure_experiences p{
+    line-height: 30px;
+    font-size: 16px;
+}
+.astronomer_figure_detail .astronomer_figure_experiences .astronomer_exp2{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    padding-left: 80px;
+    width: 500px;
+    height: 346px;
+    background: url(../images/astronomer_elem3.png) left top no-repeat;
+    -o-background-size: 32px 100%;
+            background-size: 32px 100%;
+}
+
+.astronomer_exp_img1{
+    width: 210px;
+    height: 372px;
+    background: url(../images/astronomer_elem2.png) no-repeat;
+    background-position: top center;
+    position: absolute;
+    right: 200px;
+    bottom: 260px;
+    padding-top: 150px;
+}
+.astronomer_exp_img_bg,.astronomer_exp_img_bg img{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.astronomer_exp_img_bg img{
+    -webkit-transform: rotate(8deg);
+       -moz-transform: rotate(8deg);
+        -ms-transform: rotate(8deg);
+         -o-transform: rotate(8deg);
+            transform: rotate(8deg);
+    -webkit-transform-origin: top;
+       -moz-transform-origin: top;
+        -ms-transform-origin: top;
+         -o-transform-origin: top;
+            transform-origin: top;
+}
+
+.astronomer_exp_img2{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    bottom: 160px;
+    left: 250px;
+}
+.astronomer_exp_img3{
+    position: absolute;
+    right: 120px;
+    bottom: 60px;
+}
+.astronomer_exp_img3,.astronomer_exp_img3 img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.astronomer_exp_img2 .astronomer_exp_img_bg,.astronomer_exp_img2 .astronomer_exp_img_bg img{
+    width: 230px;
+    height: 230px;
+}
+
+
+.medical-body{
+    background: url(../images/medical_bg.png) no-repeat;
+   
+}
+.medical_medical{
+    margin-top: 260px;
+    width: 100%;
+    min-height: 800px;
+    background: url(../images/techology_cutline.png) left bottom no-repeat;
+    position: relative;
+    padding-bottom: 100px;
+}
+.medical_title{
+    width: 1200px;
+    height: 200px;
+    position: relative;
+    margin: 0 auto 0 auto;
+    /* background: url(../images/medical_medical_title.png) no-repeat left center / 100% 100%; */
+
+}
+.medical_title img{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%; width: 100%;
+}
+.medical_figure_panel{
+    width: 1200px;
+    margin: 0 auto;
+}
+.medical_figure_name{
+    width: 249px;
+    height: 158px;
+    background: url(../images/medical_figure_title_bg.png) no-repeat left center / 100% 100%;
+    line-height: 158px;
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 6px;
+    margin-left: 200px;
+}
+.medical_figure_exp2{
+    position: relative;
+    height: 400px;
+}
+.medical_figure_expimg1{
+    position: absolute;
+    right: 30px;
+    width: 580px;
+    height: 100%;
+}
+.medical_figure_expimg1 img{
+    width: 100%;
+    height: 100%;
+}
+.medical_figure_exp3{
+    margin-top: 30px;
+    position: relative;
+    height: 742px;
+}
+.medical_figure_exp3 .medical_figure_detail{
+    background: url(../images/medical_figure_detail_bg.png) no-repeat left center / 100% 100%;
+    min-height: 400px;
+    width: 850px;
+    padding: 150px 150px 30px 150px;
+    margin: 0 auto;
+}
+.medical_figure_expimg2{
+    position: absolute;
+    top: -40px;
+    left: 18px;
+}
+.medical_figure_detail span{
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.medical_figure_exp3 .medical_figure_detail p{
+    line-height: 28px;
+    font-size: 16px;
+    border-bottom: 1px dashed #4877ca;
+    display: block;
+    width: 100%;
+    height: 28px;
+    overflow:hidden;
+}
+.medical_figure_exp3 .medical_figure_detail p:nth-child(1){
+    text-indent: 2em;
+}
+.medical_figure_pre,.medical_figure_next{
+    position: absolute;
+    bottom: 400px;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;
+}
+.medical_figure_pre{
+    -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.medical_figure_next{
+    -webkit-transform: rotate(-90deg);
+       -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+         -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    right: 0;
+}
+@media screen and (min-width:1800px){
+    .medical_figure_pre{
+        left: 150px;
+    } 
+    .medical_figure_next{
+        right: 150px;
+    }
+}
+.medical_figure_pre img,.medical_figure_next img{
+    width: 100%;
+    height: 100%;
+}
+.medical_figure_dot{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    margin-left: -75px;
+}
+.medical_figure_dot li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #4877ca;
+    cursor: pointer;
+}
+.medical_figure_dot li.active{
+    background-color: #4877ca;
+}
+.medical_drug .medical_title{
+    /* background: url(../images/medical_drug_title.png) no-repeat left center / 100% 100%; */
+    margin-bottom: 50px;
+}
+.medical_drug .medical_drug_figure_menu{
+    width: 1200px;
+    margin: 0 auto 60px auto;
+    position: relative;
+}
+.medical_drug .medical_drug_figure_menu ul{
+    width: 100%;
+    background: url(../images/medical_drug_menuleft.png) no-repeat left,
+                url(../images/medical_drug_menuright.png) no-repeat right;
+    text-align: center;
+    height: 100%;
+}
+.medical_drug .medical_drug_figure_menu ul li{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    background: url(../images/medical_drug_menu_bg.png) no-repeat left center / 100% 100%;
+    color: #4877ca;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.medical_drug .medical_drug_figure_menu ul li.active{
+    background: url(../images/medical_drug_menu_bg_hover.png) no-repeat left center / 100% 100%;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.medical_drug_exp1,.medical_drug_exp2,.medical_drug_exp3{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.medical_drug_exp2 .medical_drug_exp_img{
+    -webkit-order: -1;
+       -moz-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    position: relative;
+}
+.medical_drug_exp_detail{
+    padding: 50px;
+}
+.medical_drug_exp_detail span{
+    font-size: 20px;
+    height: 60px;
+    font-weight: bold;
+    line-height: 55px;
+    display: block;
+    padding:8px 0 0 90px;
+}
+.medical_drug_exp1 .medical_drug_exp_detail span{
+    background: url(../images/medical_drug_exp_title1.png) no-repeat left top / 82px 55px;
+}
+.medical_drug_exp2 .medical_drug_exp_detail span{
+    background: url(../images/medical_drug_exp_title2.png) no-repeat left top / 82px 60px;
+}
+.medical_drug_exp3 .medical_drug_exp_detail span{
+    background: url(../images/medical_drug_exp_title3.png) no-repeat left top / 82px 55px;
+}
+.medical_drug_exp_detail p{
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+.medical_exp_sp{
+    display: block;
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    background-color: #4877ca;
+    right: -30px ;
+    bottom: 100px;
+}
+.medical_drug_exp_img .medical_exp_sp.samll{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    bottom: 20px;
+    right: 50px;;
+}
+/* 医药 */
+@media screen and (max-width:1000px){
+    .medical_figure_expimg2{
+        top: -60px;
+    }
+    .medical_figure_exp3{
+        height: 900px;
+    }
+    .medical_figure_exp3  .medical_figure_detail{
+        width: 100%;
+        margin-left: -130px;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        overflow: hidden;
+    }
+    .medical_figure_exp2{
+    }
+    .medical_figure_expimg1{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+         -o-object-fit: cover;
+            object-fit: cover;
+        height: 400px; 
+        width: 500px;
+        
+    }
+}
+@media screen and (max-width:700px){
+    .medical_drug .medical_drug_figure_menu ul{
+        background: none;
+        width: 98%;
+    }
+    .medical_drug .medical_drug_figure_menu ul li{
+        width: 32%;
+    }
+    .medical_drug_exp_img.panel{
+        display: none;
+    }
+    .medical_figure_panel{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:1200px){
+    .medical_drug_exp_content{
+        margin-top: 80px;
+    }
+    .medical_exp_sp{
+        display: none;
+    }
+    .medical_drug_exp_img.panel{
+        width: 280px;
+        height: 280px;
+    }
+    .medical_drug_exp_img.panel img{
+        width: 280px;
+        height: 280px;
+    }
+}
+@media screen and (max-width:1300px){
+    .medical_title{
+        width: 100%;
+    }
+    .medical_medical.panel .medical_figure_panel{
+        width: 100%;
+    }
+    .medical_drug .medical_drug_figure_menu{
+        width: 100%;
+        height: 40px;
+    }
+    .medical_drug_figure_panel.panel{
+        width: 100%;
+    }
+    .medical_figure_dot{
+        bottom: 150px;
+    }
+    .medical_figure_pre, .medical_figure_next{
+        bottom: 100px;
+    }
+    .medical_drug .medical_drug_figure_menu ul{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+         -o-object-fit: cover;
+            object-fit: cover;
+        height: 100%; 
+        width: 100%;
+        -o-background-size: 200px auto;
+           background-size: 200px auto;
+    }
+
+}
+
+
+
+/* 生物 */
+@media (min-width:781px) and (max-width:1000px){
+    section.biologist-panel{
+        width: 95%;
+        margin: 0 auto;
+    }
+    section.biologist-panel .biologist-figure-detail{
+        width: 100%;
+    }
+    .biologist-figure-detail .biologist_figure_exp2{
+        margin-bottom: -50px;
+    }
+    .biologist-panel .biologist-achievement-menu{
+        width: 15%;
+    }
+    .biologist-panel .biologist-achievement-detail{
+        width: 80%;
+        padding-right: 15px;
+        
+    }
+    .biologist-panel .biologist-achievement-menu .biologist-achievement-menu-title,.biologist-panel .biologist-achievement-menu .biologist-achievement-menu-title-hyaline{
+        width: 100%;
+    }
+    .biologist-panel .biologist-achievement-content{
+        width: 98%;
+    }
+}
+
+
+/* 生物 */
+@media (max-width:781px){
+    section.biologist-panel{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .biologist-achievement-an{
+        display: none;
+    }
+    section.biologist-panel .biologist-figure-detail{
+        width: 100%;
+        min-height: 900px;
+        height: auto;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+    }
+    section.biologist-panel .biologist-figure-detail .biologist_figure_exp1,section.biologist-panel .biologist-figure-detail .biologist_figure_exp2{
+        width: 95%;
+        position: relative;
+        margin: 60px auto;
+        left: 0;
+        right: 0;
+        padding: 0;
+        z-index: 10;
+    }
+
+    /* ? */
+    section.biologist-panel .biologist-figure-detail .biologist-figure-elem{
+        z-index: 1;
+        width: 200px;
+        height: 200px;
+        top: 50%;
+        left: 50%;
+        opacity:0.3;
+        filter:alpha(opacity=30);
+        margin-left: -100px;
+        margin-top: -100px;
+        display: none;
+    }
+    section.biologist-panel .biologist-figure-detail .biologist-figure-heading{
+        width: 200px;
+        height: 200px;
+        top: -100px;
+        left: 50%;
+        margin-left: -100px;
+    }
+    section.biologist-panel .biologist-figure-list{
+        width: 95%;
+        margin: 0 auto;
+        position: relative;
+    }
+    section.biologist-panel .biologist-figure-list .biologist-figurememupanel{
+        height: 260px;
+    }
+    section.biologist-panel .biologist-figure-list li.biologist-figure-btn-last,section.biologist-panel .biologist-figure-list li.biologist-figure-btn-next{
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        bottom: -80px;
+    }
+    section.biologist-panel .biologist-figure-list li.biologist-figure-btn-last{
+        left: 10px;
+    }
+    section.biologist-panel .biologist-figure-list li.biologist-figure-btn-next{
+        right: 10px;
+    }
+    section.biologist-panel .biologist-figure-list li.biologist-figure-btn-last img,section.biologist-panel .biologist-figure-list li.biologist-figure-btn-next img{
+        width: 80px;
+        height: 80px;
+    }
+    section.biologist-panel .biologist-achievement-menu{
+        width: 120px;
+    }
+    section.biologist-panel .biologist-achievement-detail,section.biologist-panel .biologist-achievement-content,section.biologist-panel .biologist-achievement-title{
+        width: 95%;
+        
+    }
+    .biologist-panel .biologist-achievement-menu .biologist-achievement-menu-title,.biologist-panel .biologist-achievement-menu .biologist-achievement-menu-title-hyaline{
+        width: 100%;
+    }
+    section.biologist-panel .biologist-achievement-title{
+        max-width: 220px;
+    }
+    section.biologist-panel .biologist-achievement-content{
+        margin-top: 50px;
+    }
+}
+section.biologist-panel .biologist-achievement-content{
+    max-height: 800px;
+    overflow: auto; 
+ }
+.biologist-body{
+    background: url(../images/biologist_bg.png) no-repeat;
+    /* min-height: 5200px; */
+    position: relative;
+}
+.biologist-panel a,.biologist-panel a:hover,.biologist-panel a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+.biologist-panel{
+    width: 100%;
+   
+}
+.biologist-figure{
+    margin-top: 300px;
+}
+.biologist-panel.biologist-banner nav{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 15px;
+}
+
+.biologist-panel.biologist-banner nav ul li{
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+
+.biologist-panel.biologist-banner nav a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.biologist-panel.biologist-banner nav .logo{
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 8px;
+}
+
+.biologist-panel.biologist-banner nav a:hover{
+    background-image: url(../images/menu_hover.png);
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+/* .medical_figure_detail_content p{
+    text-indent: 2em;
+    display: block;
+    border-bottom: 1px dashed #4877ca;
+} */
+
+.biologist-figure-detail{
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+}
+.biologist-figure-detail p{
+    text-indent: 2em;
+}
+.biologist-figure-detail .biologist-figure-heading{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: -80px;;
+}
+.biologist-figure-detail .biologist-figure-title{
+    line-height: 36px;
+    background-color: #4877ca;
+    min-width: 280px;
+    color: #fff;
+    position: absolute;
+    padding-left: 15px;
+    bottom: 25px;
+    left: -25px;
+}
+.biologist-separate{
+    margin-top: -80px;
+    height: 260px;
+    background-image: url(../images/biologist_separate.png);
+    background-repeat: no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+}
+.biologist-figure-memu{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 180px;
+    background-image: url(../images/biologist_separate.png);
+    background-repeat: no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    padding-bottom: 300px;
+}
+.biologist-achievement-figure-list li.active{
+    background: url(../images/biologist_item_hover.png) no-repeat left center / 100% 100%;
+    color: #fff;
+}
+.biologist-achievement-figure-list li:hover{
+    background: url(../images/biologist_item_hover.png) no-repeat left center / 100% 100%;
+    color: #fff;
+}
+.biologist-figure-list{
+    text-align: center;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.biologist-figure-list li{
+    margin-right: 30px;
+    height: 260px;
+    list-style: none;
+}
+.biologist-figure-list img{
+    width: 160px;
+    height: 160px;
+    margin-top: 50px;
+    line-height: 260px;
+}
+.biologist-figure-list li.active img{
+    width: 180px;
+    height: 180px;
+}
+.biologist-figure-list li.biologist-figure-btn-last,.biologist-figure-list li.biologist-figure-btn-next{
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.biologist-figure-list li.biologist-figure-btn-last:hover{
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.biologist-figure-list li.biologist-figure-btn-next:hover{
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.biologist-figure-list li.biologist-figure-btn-last img{
+    -webkit-transform: rotate(90deg);
+       -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.biologist-figure-list li.biologist-figure-btn-next img{
+    -webkit-transform: rotate(-90deg);
+       -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+         -o-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+.biologist-figure-list .biologist_figure_li{
+    height: 260px;
+    width: 260px;
+    text-align: center;
+    position: relative;
+}
+.biologist-figure-list .biologist_figure_li span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: 22px;
+    bottom: 18px;
+}
+.biologist-figure-list .biologist_figure_ylp{
+    background: url(../images/biologist_figure_ylp.png) no-repeat left center / 100% 100%;
+}
+.biologist-figure-list .biologist_figure_ddz{
+    background: url(../images/biologist_figure_ddz.png) no-repeat left center / 100% 100%;
+}
+.biologist-figure-list .biologist_figure_zcl{
+    background: url(../images/biologist_figure_zcl.png) no-repeat left center / 100% 100%;
+}
+.biologist-figure-list .biologist_figure_sxj{
+    background: url(../images/biologist_figure_sxj.png) no-repeat left center / 100% 100%;
+}
+.biologist-figure-list .biologist_figure_qrc{
+    background: url(../images/biologist_figure_qrc.png) no-repeat left center / 100% 100%;
+}
+.biologist-figurememupanel{
+    width: 920px;
+    overflow: hidden;
+    position: relative;
+}
+.biologist-figurememupanel ul{
+    width: 1500px;
+    height: 260px;
+    position: absolute;
+}
+.biologist-figurememupanel li{
+    display: inline-block;
+    cursor: pointer;
+}
+.biologist-achievement{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.biologist-achievement-menu{
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+.biologist-achievement-menu .biologist-achievement-menu-title{
+    background: url(../images/biologist_big_title.png) no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    height: 120px;
+    width: 150px;
+    line-height: 120px;
+    color: #fff;
+    position: inherit;
+    z-index: 10;
+    margin-bottom: -10px;
+    font-size: 18px;
+    font-weight:bold;
+}
+.biologist-achievement-menu-title-hyaline{
+    background: url(../images/biologist_big_title_hyaline.png) no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+.biologist-achievement-figure-list{
+    background: url(../images/biologist_line_left.png) top left no-repeat
+                ,url(../images/biologist_line.png) top right no-repeat;
+    padding: 30px 20px 0 20px;
+    height: 500px;
+    position: relative;
+}
+
+.biologist-achievement-figure-list li{
+    list-style: none;
+    line-height: 36px;
+    margin-top: 15px;
+    cursor: pointer;
+    position: inherit;
+    z-index: 10;
+}
+.biologist-achievement-figure-list li.active{
+    background-image: url(../images/biologist_item_hover.png);
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+}
+.figure-achievement-menu-mask{
+    background-image: url(../images/biologist_item_hover.png);
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    height: 36px;
+    width: 110px;
+    position: absolute;
+    left: 12px;
+    z-index: 1;
+}
+
+.biologist-achievement-detail{
+    padding-left: 30px;
+    position: relative;
+    max-width: 700px;
+}
+.biologist-achievement-title{
+    background: url(../images/biologist_title.png) no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    line-height: 50px;
+    padding:0 25px 15px 25px;
+    width: 240px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.biologist-achievement-content{
+    width: 700px;
+    padding-top: 36px;
+    text-indent: 2em;
+    line-height: 32px;
+}
+.biologist-achievement-content p{
+    margin-bottom: 20px;
+}
+.biologist-figure-detail{
+    /* font-family: "华文新魏"; */
+    width: 960px;
+    background-color: #fff;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    -o-background-size: 260px 260px;
+            background-size: 260px 260px;
+    position: relative;
+}
+@-webkit-keyframes achievementAn {
+    from {
+        width: 79px;
+    }
+    to{
+        width: 460px;
+    }
+}
+@-moz-keyframes achievementAn {
+    from {
+        width: 79px;
+    }
+    to{
+        width: 460px;
+    }
+}
+@-o-keyframes achievementAn {
+    from {
+        width: 79px;
+    }
+    to{
+        width: 460px;
+    }
+}
+@keyframes achievementAn {
+    from {
+        width: 79px;
+    }
+    to{
+        width: 660px;
+    }
+}
+.achievementAn{
+    -webkit-animation-name: achievementAn;
+       -moz-animation-name: achievementAn;
+         -o-animation-name: achievementAn;
+            animation-name: achievementAn;
+}
+.biologist-achievement-an{
+    width: 79px;
+    height: 544px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.biologist-achievement-an img{
+    width: 700px;
+    height: 544px;
+    position: absolute;
+    left: 0;
+}
+
+.biologist-achievement-an .anmask{
+    width: 79px;
+    height: 544px;
+    background: url(../images/biologist_j.png) no-repeat right center / 100% 100%;
+    position: absolute;
+    right: -10px;
+}
+.biologist-figure-elem{
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.biologist-figure-detail .biologist_figure_exp1{
+    
+    position: absolute;
+    left: 200px;
+    top: 15px;
+    padding: 20px;
+    height: 400px;
+}
+.biologist-figure-detail .biologist_figure_exp1 span,.biologist-figure-detail .biologist_figure_exp2 span{
+    color: #4877ca;
+    font-size: 22px;
+    line-height: 45px;
+}
+.biologist-figure-detail .biologist_figure_exp1 p,.biologist-figure-detail .biologist_figure_exp2 p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.biologist-figure-detail .biologist_figure_exp2{
+    position: absolute;
+    bottom: 80px;
+    padding: 0 300px 20px 20px;
+}
+
+
+
+@media screen and (max-width:1200px){
+    
+}

@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.index-silde-panel{
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    height: 100%;
+}
+.index-silde-panel section{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 111;
+}
+@keyframes toPage{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+.index-silde-panel section.active{
+    transition: all 1s;
+    opacity: 1;
+    z-index: 222;
+}
+.index-silde-panel section.hide{
+    right: 110%;
+    transition: all 0.5s;
+    z-index: 222;
+}
+.index-silde-detail{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -250px;
+}
+.index-silde-detail span{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    display: block;
+    text-align: center;
+}
+.index-silde-detail p{
+    text-indent: 2em;
+    line-height: 20px;
+}
+.index-silde-nav{
+    max-width: 200px;
+    width: 200px;
+    height: 100%;
+}
+.index-silde-nav ul{
+    width: 100%;
+}
+.index-silde-nav ul li {
+    list-style: none;
+    width: 85%;
+    height: 40px;
+    line-height: 40px;
+    margin: 30px auto;
+    cursor: pointer;
+}
+.index-silde-nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+.index-silde-nav a:hover{
+    text-decoration: none;
+}
+
+.medical-panel a,.medical-panel a:hover,.medical-panel a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+/*医疗*/
+.medical-panel{
+    width: 100%;
+    background-color: #cdddf9;
+}
+.medical-panel.medical-banner{
+    background-image:url(../images/banner_bg.png);
+    background-repeat: no-repeat;
+    
+    /* background-size: 100% 100%; */
+}
+.medical-panel.medical-banner nav{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 15px;
+}
+
+.medical-panel.medical-banner nav ul li{
+    width: 120px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    z-index: 10;
+}
+.menu-mask{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    background-image: url(../images/menu_hover.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 19px;
+    z-index: 1;
+}
+.medical-panel.medical-banner nav a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    transition: all 0.3s;
+}
+.medical-panel.medical-banner nav .logo{
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: 8px;
+}
+
+.medical-panel.medical-banner nav a:hover{
+    background-image: url(../images/menu_hover.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all 0.3s;
+}
+
+
+.medical-figure-detail{
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+}
+.medical-figure-detail .medical-figure-heading{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: -80px;;
+}
+.medical-figure-detail .medical-figure-title{
+    line-height: 36px;
+    background-color: #4877ca;
+    width: 280px;
+    color: #fff;
+    position: absolute;
+    padding-left: 15px;
+    bottom: 25px;
+    left: -25px;
+}
+.medical-separate{
+    margin-top: -80px;
+    height: 260px;
+    background-image: url(../images/medical_separate.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.medical-figure-memu{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin-top: 180px;
+    background-image: url(../images/medical_separate.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 100px;
+}
+
+.medical-figure-list{
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.medical-figure-list li{
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 180px;
+    line-height: 180px;
+    list-style: none;
+}
+.medical-figure-list img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+}
+
+.medical-figure-list li.active img{
+    width: 180px;
+    height: 180px;
+    margin-top: -30px;
+}
+.medical-figure-list li.medical-figure-btn-last img{
+    transform: rotate(90deg);
+}
+.medical-figure-list li.medical-figure-btn-next img{
+    transform: rotate(-90deg);
+}
+
+.medical-achievement{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.medical-achievement-menu{
+    width: 150px;
+    text-align: center;
+    position: relative;
+}
+.medical-achievement-menu .medical-achievement-menu-title{
+    background: url(../images/medical_big_title.png) no-repeat;
+    background-size: 100% 100%;
+    height: 120px;
+    width: 150px;
+    line-height: 120px;
+    color: #fff;
+    position: inherit;
+    z-index: 10;
+    margin-bottom: -10px;
+}
+.medical-achievement-menu-title-hyaline{
+    background: url(../images/medical_big_title_hyaline.png) no-repeat;
+    background-size: 100% 100%;
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+}
+.medical-achievement-figure-list{
+    background: url(../images/medical_line_left.png) top left no-repeat
+                ,url(../images/medical_line.png) top right no-repeat;
+    padding: 30px 20px 0 20px;
+    height: 500px;
+    position: relative;
+}
+
+.medical-achievement-figure-list li{
+    list-style: none;
+    line-height: 36px;
+    margin-top: 15px;
+    cursor: pointer;
+    position: inherit;
+    z-index: 10;
+}
+.medical-achievement-figure-list li.active{
+    background-image: url(../images/medical_item_hover.png);
+    background-size: 100% 100%;
+}
+.figure-achievement-menu-mask{
+    background-image: url(../images/medical_item_hover.png);
+    background-size: 100% 100%;
+    height: 36px;
+    width: 110px;
+    position: absolute;
+    left: 12px;
+    z-index: 1;
+}
+
+.medical-achievement-detail{
+    padding-left: 30px;
+    position: relative;
+    max-width: 700px;
+}
+.medical-achievement-title{
+    background: url(../images/medical_title.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: 50px;
+    padding:0 25px 15px 25px;
+    width: 200px;
+    margin: 0 auto;
+}
+.medical-achievement-content{
+    padding-top: 36px;
+    text-indent: 2em;
+    line-height: 32px;
+}
+.medical-achievement-content p{
+    margin-bottom: 20px;
+}
+
+
+
+
+.medical-footer{
+    height: 400px;;
+    background-image: url(../images/medical_footer_bg.png);
+    background-size: 100% 100%;
+}

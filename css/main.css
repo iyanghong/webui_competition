@@ -1,0 +1,525 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 100%;
+    background: url(../images/banner_cloud.png) no-repeat top center;
+    background-color: #e8f1ff;
+}
+.navigate{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+.navigate ul{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+}
+.navigate a,.navigate a:hover,.navigate a:visited{
+    text-decoration: none;
+    color: #000;
+}
+.navigate a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+a{
+    cursor: pointer;
+}
+.navigate ul li{
+    width: 120px;
+    height: 50px;
+    list-style: none;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+.navigate ul li:nth-child(1){
+    margin-right: 150px;
+}
+.navigate .logo{
+    /* width: 90px;
+    height: 50px; */
+    line-height: 50px;
+    /* position: absolute;
+    left: 18%; */
+}
+.panel_en{
+    overflow: auto;
+    display: block;
+    /* height: auto; */
+}
+.panel_en::-webkit-scrollbar {display:none}
+.navigate .lang .btnl .language_btn_en{
+    font-size: 8px;
+    top: -48px;
+}
+@-webkit-keyframes navShow{
+    from {opacity: 0;top: -50px}
+    to {opacity: 1;top:0}
+}
+
+
+@-moz-keyframes navShow{
+    from {opacity: 0;top: -50px}
+    to {opacity: 1;top:0}
+}
+
+
+@-o-keyframes navShow{
+    from {opacity: 0;top: -50px}
+    to {opacity: 1;top:0}
+}
+
+
+@keyframes navShow{
+    from {opacity: 0;top: -50px}
+    to {opacity: 1;top:0}
+}
+@-webkit-keyframes dlShow1{
+    0% {top: 0}
+    10% {top: -55px}
+    100% {top: 55px};
+}
+@-moz-keyframes dlShow1{
+    0% {top: 0}
+    10% {top: -55px}
+    100% {top: 55px};
+}
+@-o-keyframes dlShow1{
+    0% {top: 0}
+    10% {top: -55px}
+    100% {top: 55px};
+}
+@keyframes dlShow1{
+    0% {top: 0}
+    10% {top: -55px}
+    100% {top: 55px};
+}
+@-webkit-keyframes dlShow2{
+    0% {top: 0}
+    10% {top: -45px}
+    100% {top: 110px};
+}
+@-moz-keyframes dlShow2{
+    0% {top: 0}
+    10% {top: -45px}
+    100% {top: 110px};
+}
+@-o-keyframes dlShow2{
+    0% {top: 0}
+    10% {top: -45px}
+    100% {top: 110px};
+}
+@keyframes dlShow2{
+    0% {top: 0}
+    10% {top: -45px}
+    100% {top: 110px};
+}
+@-webkit-keyframes dlShow3{
+    0% {top: 0}
+    10% {top: -30px} 
+    100% {top: 165px};
+}
+@-moz-keyframes dlShow3{
+    0% {top: 0}
+    10% {top: -30px} 
+    100% {top: 165px};
+}
+@-o-keyframes dlShow3{
+    0% {top: 0}
+    10% {top: -30px} 
+    100% {top: 165px};
+}
+@keyframes dlShow3{
+    0% {top: 0}
+    10% {top: -30px} 
+    100% {top: 165px};
+}
+@-webkit-keyframes dlShow4{
+    0% {top: 0}
+    10% {top: -10px}
+    100% {top: 220px};
+}
+@-moz-keyframes dlShow4{
+    0% {top: 0}
+    10% {top: -10px}
+    100% {top: 220px};
+}
+@-o-keyframes dlShow4{
+    0% {top: 0}
+    10% {top: -10px}
+    100% {top: 220px};
+}
+@keyframes dlShow4{
+    0% {top: 0}
+    10% {top: -10px}
+    100% {top: 220px};
+}
+@-webkit-keyframes dlShow{
+    from{ position: absolute;}
+    to{position: relative;}
+}
+@-moz-keyframes dlShow{
+    from{ position: absolute;}
+    to{position: relative;}
+}
+@-o-keyframes dlShow{
+    from{ position: absolute;}
+    to{position: relative;}
+}
+@keyframes dlShow{
+    from{ position: absolute;}
+    to{position: relative;}
+}
+.navigate ul li:hover .techology_dl dd:nth-child(1){
+    -webkit-animation: dlShow1 2s;
+       -moz-animation: dlShow1 2s;
+         -o-animation: dlShow1 2s;
+            animation: dlShow1 2s;
+}
+.navigate ul li:hover .techology_dl dd:nth-child(2){
+    -webkit-animation: dlShow2 2s;
+       -moz-animation: dlShow2 2s;
+         -o-animation: dlShow2 2s;
+            animation: dlShow2 2s;
+}
+.navigate ul li:hover .techology_dl dd:nth-child(3){
+    -webkit-animation: dlShow3 2s;
+       -moz-animation: dlShow3 2s;
+         -o-animation: dlShow3 2s;
+            animation: dlShow3 2s;
+}
+.navigate ul li:hover .techology_dl dd:nth-child(4){ 
+    -webkit-animation: dlShow4 2s; 
+       -moz-animation: dlShow4 2s; 
+         -o-animation: dlShow4 2s; 
+            animation: dlShow4 2s;
+}
+
+.logo.m{
+    display: none;
+}
+
+.menu-mask{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    background-image: url(../images/menu_hover.png);
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    background-repeat: no-repeat;
+    left: -120px;
+    z-index: 1;
+}
+footer{
+    background-image: url(../images/technology_footer_bg.png);
+    background-repeat: no-repeat;
+    -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+    height: 500px;
+    position: relative;
+}
+footer .copyright{
+    font-family:"微软雅黑";
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    bottom: 10px;
+}
+.toTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    display: none;
+    background: url(../images/top.png) no-repeat left center / 100% 100%;
+    cursor: pointer;
+    z-index: 999;
+}
+.banner{
+    position: relative;
+}
+.banner .info{
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 560px;
+    margin-top: -30px;
+    margin-left: -560px;
+    text-align: right;
+    
+}
+.banner .info p,#politician_nr p{
+    display: block;
+    height: 20px;
+    overflow: hidden;
+}
+
+.techology_dl{
+    z-index: 666;
+}
+.navigate .lang{
+    position: absolute;
+    width: 80px;
+    top: -100px;
+    right: 50px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.navigate .lang:hover{
+    top: -20px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.navigate .lang div{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.navigate .lang div a{
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background-color: #4877ca;
+}
+.navigate .lang div a:hover{
+    background: rgba(72,119,202, 0.6);
+}
+.navigate .lang a{
+    display: block;
+    line-height: 36px;
+    height: 36px;
+    width: 100%;
+    margin-top: 1px;
+    color: #fff;
+    
+}
+.navigate .lang .btnl{
+    height: 0;
+    width: 0;
+    border-color: #0839b8 transparent transparent transparent;
+    border-style: solid;
+    border-width: 40px 40px 0 40px;
+    position: relative;
+}
+.navigate .lang .btnl span{
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+}
+@media screen and (min-width:781px){
+    .techology_dl dd{
+        background: url(../images/physicist_nav_backgroud.png) no-repeat left center / 100% 100%;
+        display: block;
+        margin-bottom: 3px;
+        width: 100%;
+        cursor: pointer;
+    }
+   
+    .techology_dl{
+        position: relative;
+        z-index: 10;
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-animation-fill-mode: forwards;
+           -moz-animation-fill-mode: forwards;
+             -o-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+    }
+    .techology_dl a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: 0;
+        z-index: 666;
+    }
+    .navigate ul li:hover .techology_dl{
+        height: 220px;
+        -webkit-transition: all 2s;
+        -o-transition: all 2s;
+        -moz-transition: all 2s;
+        transition: all 2s;
+        -webkit-animation-fill-mode: forwards;
+           -moz-animation-fill-mode: forwards;
+             -o-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+        -webkit-animation: navShow 2s;
+           -moz-animation: navShow 2s;
+             -o-animation: navShow 2s;
+                animation: navShow 2s;
+    }
+    .navigate ul li:hover .techology_dl dd{
+        -webkit-animation-fill-mode: forwards;
+           -moz-animation-fill-mode: forwards;
+             -o-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+    }
+    .techology_dl dd:hover{
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        transition: all 0.2s;
+        background: url(../images/physicist_nav_hover.png) no-repeat left center / 100% 100%;
+    }
+    .navigate .showNav{
+        display: none;
+    }
+    
+}
+section{
+    overflow: hidden;
+}
+@media screen and (max-width : 1400px){
+    .navigate ul li:nth-child(1){
+        margin-right: 0;
+    }
+}
+@media screen and (max-width : 780px){
+    .navigate .lang a{
+        display: block;
+        text-align: center;
+    }
+    .navigate .lang .btnl span{
+        left: -40px;
+    }
+    #banner{
+        width: 100%;
+    }
+    .navigate ul li:nth-child(1){
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+    .logo.m{
+        display: block;
+    }
+    .navigate ul.show{
+        height: 350px;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+    }
+    .navigate ul{
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        overflow: hidden;
+        height: 0;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+    }
+    .navigate ul li a{
+        display: block;
+        width: 100%;
+        height: 40px;
+        z-index: 999;
+    }
+    .navigate ul li.active{
+        height: auto;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+    }
+    .navigate ul li.active .techology_dl{
+        height: 180px;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+    }
+    .navigate ul li{
+        width: 100%;
+        padding-left: 15px;
+        text-align: left;
+        height: 40px;
+        line-height: 40px;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+    }
+    .menu-mask{
+        display: none;
+    }
+    .techology_dl{
+        height: 0;
+        overflow: hidden;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        -moz-transition: all 1s;
+        transition: all 1s;
+    }
+    .techology_dl dd{
+        line-height: 30px;
+        padding-left: 80px;
+    }
+    .showNav{
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        cursor: pointer;
+    }
+    span.toTop{
+        width: 40px;
+        height: 40px;
+        right: 20px;
+        bottom: 20px;
+    }
+    .banner .info{
+        display: none;
+    }
+    body.technology_body{
+        background-color: #e8f1ff;
+    }
+}

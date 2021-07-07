@@ -1,0 +1,10 @@
+.panel{
+    position: relative;
+}
+@keyframes opacityFrame{
+    from{ opacity: 0; }
+    to { opacity: 1;}
+}
+.opacity800{
+    animation: opacityFrame 3s forwards;
+}

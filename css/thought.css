@@ -1,0 +1,396 @@
+.panel{
+    position: relative;
+}
+.thought_body{
+    background: url(../images/thought_bg.png) no-repeat left center / 100% 100%;
+ 
+}
+.thought_banner{
+    /* background: url(../images/thought_banner.png) no-repeat left center / 100% 100%; */
+    min-height: 920px;
+}
+.banner_img{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 100%; 
+    width: 100%;
+}
+.thought_banner.banner .info{
+    color: #000;
+    /* font-size: 18px; */
+    margin-top: -90px;
+    margin-left: -490px;
+}
+body.maozedong_body{
+    background: url(../images/maozedong_bg.png) no-repeat;
+}
+.maozedong_thought_soul{
+    margin-top: 300px;   
+    background: url(../images/techology_cutline.png) no-repeat left bottom;
+    padding-bottom: 300px;
+}
+.maozedong_thought_soul .maozedong_thought_soul_panel{
+    width: 1200px;
+    margin: 0 auto;
+}
+.maozedong_thought_soul .title,.maozedong_thought_master .title{
+    height: 46px;
+    width: 300px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+}
+.maozedong_thought_soul .title img,.maozedong_thought_master .title img{
+    width: 139px;
+    height: 46px;
+}
+.maozedong_thought_soul .title span,.maozedong_thought_master .title span{
+    display: block;
+    width: 110px;
+    height: 46px;
+    padding-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    position: relative;
+}
+.maozedong_thought_soul .title span::before,.maozedong_thought_master .title span::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 26px;
+    right: 0;
+    background-color: #4877ca;
+    z-index: -1;
+}
+.maozedong_thought_soul_content,.maozedong_thought_master_content{
+    /* font-family: "华文新魏"; */
+    width: 1250px;
+    line-height: 28px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 60px 70px;
+    background: url(../images/astronomer_info_bg.png) top left no-repeat
+                ,url(../images/astronomer_info_bg2.png) bottom right no-repeat;
+}
+.maozedong_thought_soul_detail{
+    margin:  0 auto;
+    width: 1200px;
+    padding-left: 25px;
+    background: url(../images/maozedong_thought_detail_bg.png) no-repeat left center / 100% 100%;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.maozedong_thought_soul_detail1,.maozedong_thought_soul_detail2,.maozedong_thought_soul_detail3{
+    margin: 10px;
+    position: relative;
+    width: 300px;
+    height: 260px;
+}
+.maozedong_thought_soul_detail1 span,.maozedong_thought_soul_detail2 span,.maozedong_thought_soul_detail3 span{
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    padding: 0 12px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    margin: 30px auto;
+    background: url(../images/maozedong_thought_detail_title_bg.png) no-repeat left center / 100% 100%;
+}
+.maozedong_thought_soul_detail .content{
+    padding-right: 20px;
+}
+.maozedong_thought_soul_detail1 .content,.maozedong_thought_soul_detail2 .content{
+    border-right: 1px solid #000;
+}
+.maozedong_thought_soul_detail1 .content,.maozedong_thought_soul_detail2 .content p{
+    margin-top: 25px;
+    line-height: 26px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+.maozedong_thought_soul_detail3 p{
+    text-indent: 2em;
+}
+.maozedong_thought_master{
+    
+}
+.maozedong_thought_master_panel{
+    width: 1200px;
+    margin: 30px auto;
+}
+.maozedong_thought_master .title span{
+    width: 150px;;
+}
+.maozedong_thought_master_list_panel{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+       -moz-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.maozedong_thought_master_list_img{
+    width: 500px;
+    background-color: #bbcff0;
+    height: 600px;
+    padding: 15px;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-right: 25px;
+
+}
+.maozedong_thought_master_list_img img{
+    width: 510px;
+    height: 290px;
+}
+.maozedong_thought_master_list{
+    width: 55%;
+}
+.maozedong_thought_master_list li{
+    list-style: none;
+    height: 40px;
+    margin-bottom: 25px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.maozedong_thought_master_list li a{
+    display: block;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    background: url(../images/maozedong_thought_master_title.png) no-repeat left center / 100% 100%;
+}
+.maozedong_thought_master_list li.active{
+    height: 300px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+} 
+.maozedong_thought_master_list li .maozedong_thought_master_item{
+    padding: 15px;
+}
+.maozedong_thought_master_item p{
+    text-indent: 2em;
+}
+.maozedong_thought_master_list li .maozedong_thought_master_item p{
+    line-height: 26px;
+    display: block;
+    margin: 10px 0;
+}
+.maozedong_thought_influence{
+    margin-top: 100px;
+}
+.maozedong_thought_influence .panel{
+    width: 1200px;
+    margin: 0 auto;
+}
+.maozedong_thought_influence .title{
+    background: url(../images/astronomer_figure_title.png) no-repeat left center / 100% 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    font-family: "华文新魏";
+    font-weight: bold;
+}
+.maozedong_thought_influence .influence_item{
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    margin: 36px 0;
+}
+.maozedong_thought_influence .influence2 .content{
+    -webkit-order: -1;
+       -moz-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    
+}
+.maozedong_thought_influence .influence_item .content{
+    height: 220px;
+    width: 410px;
+    text-align: center;
+}
+.maozedong_thought_influence .influence_item img{
+    width: 410px;
+    height: 385px;
+}
+.maozedong_thought_influence .influence_item .content span{
+    font-size: 26px;
+    display: block;
+    margin: 30px 0 25px 0;
+}
+.maozedong_thought_influence .influence_item p{
+    
+    -webkit-writing-mode:tb-rl;
+        -ms-writing-mode:tb-rl;
+            writing-mode:tb-rl;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width:1200px){
+    .maozedong_thought_soul_content, .maozedong_thought_master_content,.maozedong_thought_soul_content, .maozedong_thought_master_content {
+        width: 80%;
+    }
+    .maozedong_thought_master_panel{
+        width: 100%;
+    }
+    .maozedong_thought_soul_panel.panel{
+        width: 100%;
+    }
+    .maozedong_thought_influence .panel{
+        width: 100%;
+    }
+}
+@media (min-width:780px) and (max-width:1200px){
+    .maozedong_thought_master_list_img{
+        width: 400px;
+    }
+    .maozedong_thought_master_list_img img{
+        width: 390px;
+    }
+    .maozedong_thought_influence .influence_item img{
+        width: 350px;
+        height: 300px;
+    }
+    .maozedong_thought_soul_detail{
+        width: 100%;
+    }
+    .maozedong_thought_soul_detail div{
+        height: 410px;
+    }
+    .maozedong_thought_soul_detail1, .maozedong_thought_soul_detail2, .maozedong_thought_soul_detail3{
+        height: 300px;
+        overflow: auto;
+    }
+    .maozedong_thought_soul_detail div::-webkit-scrollbar {display:none}
+    
+}
+@media screen and (max-width:780px){
+    .navigate{
+        position: absolute;
+        z-index: 999;
+    }
+    .banner_img{
+        display: none;
+    }
+    .thought_banner{
+        background: url(../images/thought_banner_m.png) no-repeat left center / 100% 100%;
+    }
+    section{
+        overflow: hidden;
+    }
+    .maozedong_thought_master_list_panel{
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        -webkit-justify-content: center;
+        -moz-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+    }
+    .maozedong_thought_master_list_img img{
+        width: 100%;
+    }
+    .maozedong_thought_master_list_img{
+        width: 95%;
+        margin-right: 0;
+    }
+    .maozedong_thought_master_list{
+        width: 95%;
+        margin-top: 25px;
+    }
+    .banner .info{
+        display: none;
+    }
+    .banner_img{
+        
+    }
+    .maozedong_thought_soul_detail{
+        width: 95%;
+    }
+    .maozedong_thought_soul_detail{
+        -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+        background: none;
+        padding: 0 30px 0 25px;
+    }
+    .maozedong_thought_soul_detail1, .maozedong_thought_soul_detail2, .maozedong_thought_soul_detail3 {
+        width: 95%;
+        height: 300px;
+        padding: 0 15px;
+        background: url(../images/maozedong_thought_detail_bg.png) no-repeat left center / 100% 100%;
+    }
+    .maozedong_thought_soul_detail .content{
+        border: 0px;
+    }
+    .maozedong_thought_soul_detail_img{
+        background: url(../images/maozedong_thought_detail_bg.png) no-repeat;
+        -o-background-size: auto 426px;
+           background-size: auto 426px;
+        background-position: right;
+    }
+    body.maozedong_body{
+        background-color: #e8f1ff;
+    }
+}
+@media screen and (max-width:560px){
+    .maozedong_thought_influence .influence_item img{
+        width: 250px;
+        height: 200px;
+    }
+    .maozedong_thought_influence .influence_item{
+        margin-top: 100px;
+        padding-right: 10px;
+    }
+}
